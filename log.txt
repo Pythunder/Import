@@ -1,0 +1,1159 @@
+[00:00:00] Build started
+[00:00:00] "%PYTHON%" -m pip install -U pip
+[00:00:02] Requirement already up-to-date: pip in c:\python35\lib\site-packages (19.3.1)
+[00:00:03] "%PYTHON%" -m pip install -U wheel pytest
+[00:00:04] Collecting wheel
+[00:00:04]   Downloading https://files.pythonhosted.org/packages/00/83/b4a77d044e78ad1a45610eb88f745be2fd2c6d658f9798a15e384b7d57c9/wheel-0.33.6-py2.py3-none-any.whl
+[00:00:05] Collecting pytest
+[00:00:05]   Downloading https://files.pythonhosted.org/packages/30/c5/cf0d56d9e0458f66cfef10bc74b375597c34e53e522e23e817673e83f1b9/pytest-5.3.0-py3-none-any.whl (233kB)
+[00:00:05] Collecting packaging
+[00:00:05]   Downloading https://files.pythonhosted.org/packages/cf/94/9672c2d4b126e74c4496c6b3c58a8b51d6419267be9e70660ba23374c875/packaging-19.2-py2.py3-none-any.whl
+[00:00:05] Collecting wcwidth
+[00:00:05]   Downloading https://files.pythonhosted.org/packages/7e/9f/526a6947247599b084ee5232e4f9190a38f398d7300d866af3ab571a5bfe/wcwidth-0.1.7-py2.py3-none-any.whl
+[00:00:05] Collecting importlib-metadata>=0.12; python_version < "3.8"
+[00:00:05]   Downloading https://files.pythonhosted.org/packages/f6/d2/40b3fa882147719744e6aa50ac39cf7a22a913cbcba86a0371176c425a3b/importlib_metadata-0.23-py2.py3-none-any.whl
+[00:00:05] Collecting py>=1.5.0
+[00:00:05]   Downloading https://files.pythonhosted.org/packages/76/bc/394ad449851729244a97857ee14d7cba61ddb268dce3db538ba2f2ba1f0f/py-1.8.0-py2.py3-none-any.whl (83kB)
+[00:00:06] Collecting more-itertools>=4.0.0
+[00:00:06]   Downloading https://files.pythonhosted.org/packages/45/dc/3241eef99eb45f1def35cf93af35d1cf9ef4c0991792583b8f33ea41b092/more_itertools-7.2.0-py3-none-any.whl (57kB)
+[00:00:06] Collecting pathlib2>=2.2.0; python_version < "3.6"
+[00:00:06]   Downloading https://files.pythonhosted.org/packages/e9/45/9c82d3666af4ef9f221cbb954e1d77ddbb513faf552aea6df5f37f1a4859/pathlib2-2.3.5-py2.py3-none-any.whl
+[00:00:06] Collecting attrs>=17.4.0
+[00:00:06]   Downloading https://files.pythonhosted.org/packages/a2/db/4313ab3be961f7a763066401fb77f7748373b6094076ae2bda2806988af6/attrs-19.3.0-py2.py3-none-any.whl
+[00:00:06] Collecting colorama; sys_platform == "win32"
+[00:00:06]   Downloading https://files.pythonhosted.org/packages/4f/a6/728666f39bfff1719fc94c481890b2106837da9318031f71a8424b662e12/colorama-0.4.1-py2.py3-none-any.whl
+[00:00:06] Collecting atomicwrites>=1.0; sys_platform == "win32"
+[00:00:06]   Downloading https://files.pythonhosted.org/packages/52/90/6155aa926f43f2b2a22b01be7241be3bfd1ceaf7d0b3267213e8127d41f4/atomicwrites-1.3.0-py2.py3-none-any.whl
+[00:00:06] Collecting pluggy<1.0,>=0.12
+[00:00:06]   Downloading https://files.pythonhosted.org/packages/a0/28/85c7aa31b80d150b772fbe4a229487bc6644da9ccb7e427dd8cc60cb8a62/pluggy-0.13.1-py2.py3-none-any.whl
+[00:00:06] Collecting six
+[00:00:06]   Downloading https://files.pythonhosted.org/packages/65/26/32b8464df2a97e6dd1b656ed26b2c194606c16fe163c695a992b36c11cdf/six-1.13.0-py2.py3-none-any.whl
+[00:00:07] Collecting pyparsing>=2.0.2
+[00:00:07]   Downloading https://files.pythonhosted.org/packages/c0/0c/fc2e007d9a992d997f04a80125b0f183da7fb554f1de701bbb70a8e7d479/pyparsing-2.4.5-py2.py3-none-any.whl (67kB)
+[00:00:07] Collecting zipp>=0.5
+[00:00:07]   Downloading https://files.pythonhosted.org/packages/74/3d/1ee25a26411ba0401b43c6376d2316a71addcc72ef8690b101b4ea56d76a/zipp-0.6.0-py2.py3-none-any.whl
+[00:00:07] Installing collected packages: wheel, six, pyparsing, packaging, wcwidth, more-itertools, zipp, importlib-metadata, py, pathlib2, attrs, colorama, atomicwrites, pluggy, pytest
+[00:00:07]   WARNING: The script wheel.exe is installed in 'C:\Python35\Scripts' which is not on PATH.
+[00:00:07]   Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+[00:00:08]   WARNING: The scripts py.test.exe and pytest.exe are installed in 'C:\Python35\Scripts' which is not on PATH.
+[00:00:08]   Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+[00:00:08] Successfully installed atomicwrites-1.3.0 attrs-19.3.0 colorama-0.4.1 importlib-metadata-0.23 more-itertools-7.2.0 packaging-19.2 pathlib2-2.3.5 pluggy-0.13.1 py-1.8.0 pyparsing-2.4.5 pytest-5.3.0 six-1.13.0 wcwidth-0.1.7 wheel-0.33.6 zipp-0.6.0
+[00:00:09] git clone -q --branch=master https://github.com/libgit2/pygit2.git C:\projects\pygit2
+[00:00:10] git checkout -qf d2b0ced1ff5c2e00f14e551dd5abdaf54f16ebc7
+[00:00:12] set LIBGIT2=%APPVEYOR_BUILD_FOLDER%\venv
+[00:00:12] git clone --depth=1 -b maint/v0.28 https://github.com/libgit2/libgit2.git libgit2
+[00:00:12] Cloning into 'libgit2'...
+[00:00:15] Checking out files:  34% (3514/10168)   
+[00:00:15] Checking out files:  35% (3559/10168)   
+[00:00:15] Checking out files:  36% (3661/10168)   
+[00:00:15] Checking out files:  37% (3763/10168)   
+[00:00:15] Checking out files:  38% (3864/10168)   
+[00:00:15] Checking out files:  39% (3966/10168)   
+[00:00:15] Checking out files:  40% (4068/10168)   
+[00:00:15] Checking out files:  41% (4169/10168)   
+[00:00:15] Checking out files:  42% (4271/10168)   
+[00:00:15] Checking out files:  43% (4373/10168)   
+[00:00:15] Checking out files:  44% (4474/10168)   
+[00:00:16] Checking out files:  45% (4576/10168)   
+[00:00:16] Checking out files:  46% (4678/10168)   
+[00:00:16] Checking out files:  47% (4779/10168)   
+[00:00:16] Checking out files:  48% (4881/10168)   
+[00:00:16] Checking out files:  49% (4983/10168)   
+[00:00:16] Checking out files:  50% (5084/10168)   
+[00:00:16] Checking out files:  51% (5186/10168)   
+[00:00:16] Checking out files:  52% (5288/10168)   
+[00:00:16] Checking out files:  52% (5290/10168)   
+[00:00:16] Checking out files:  53% (5390/10168)   
+[00:00:16] Checking out files:  54% (5491/10168)   
+[00:00:16] Checking out files:  55% (5593/10168)   
+[00:00:16] Checking out files:  56% (5695/10168)   
+[00:00:16] Checking out files:  57% (5796/10168)   
+[00:00:16] Checking out files:  58% (5898/10168)   
+[00:00:16] Checking out files:  59% (6000/10168)   
+[00:00:16] Checking out files:  60% (6101/10168)   
+[00:00:16] Checking out files:  61% (6203/10168)   
+[00:00:16] Checking out files:  62% (6305/10168)   
+[00:00:16] Checking out files:  63% (6406/10168)   
+[00:00:16] Checking out files:  64% (6508/10168)   
+[00:00:16] Checking out files:  65% (6610/10168)   
+[00:00:16] Checking out files:  66% (6711/10168)   
+[00:00:16] Checking out files:  67% (6813/10168)   
+[00:00:16] Checking out files:  68% (6915/10168)   
+[00:00:16] Checking out files:  69% (7016/10168)   
+[00:00:16] Checking out files:  70% (7118/10168)   
+[00:00:16] Checking out files:  71% (7220/10168)   
+[00:00:16] Checking out files:  72% (7321/10168)   
+[00:00:16] Checking out files:  73% (7423/10168)   
+[00:00:16] Checking out files:  74% (7525/10168)   
+[00:00:17] Checking out files:  75% (7626/10168)   
+[00:00:17] Checking out files:  76% (7728/10168)   
+[00:00:17] Checking out files:  77% (7830/10168)   
+[00:00:17] Checking out files:  77% (7848/10168)   
+[00:00:17] Checking out files:  78% (7932/10168)   
+[00:00:17] Checking out files:  79% (8033/10168)   
+[00:00:17] Checking out files:  80% (8135/10168)   
+[00:00:17] Checking out files:  81% (8237/10168)   
+[00:00:17] Checking out files:  82% (8338/10168)   
+[00:00:17] Checking out files:  83% (8440/10168)   
+[00:00:17] Checking out files:  84% (8542/10168)   
+[00:00:17] Checking out files:  85% (8643/10168)   
+[00:00:17] Checking out files:  86% (8745/10168)   
+[00:00:17] Checking out files:  87% (8847/10168)   
+[00:00:17] Checking out files:  88% (8948/10168)   
+[00:00:17] Checking out files:  89% (9050/10168)   
+[00:00:17] Checking out files:  90% (9152/10168)   
+[00:00:18] Checking out files:  91% (9253/10168)   
+[00:00:18] Checking out files:  92% (9355/10168)   
+[00:00:18] Checking out files:  93% (9457/10168)   
+[00:00:18] Checking out files:  94% (9558/10168)   
+[00:00:18] Checking out files:  95% (9660/10168)   
+[00:00:18] Checking out files:  96% (9762/10168)   
+[00:00:18] Checking out files:  97% (9863/10168)   
+[00:00:18] Checking out files:  97% (9926/10168)   
+[00:00:18] Checking out files:  98% (9965/10168)   
+[00:00:18] Checking out files:  99% (10067/10168)   
+[00:00:18] Checking out files: 100% (10168/10168)   
+[00:00:18] Checking out files: 100% (10168/10168), done.
+[00:00:18] cd libgit2
+[00:00:18] cmake . -DBUILD_CLAR=OFF -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX="%LIBGIT2%" -G "%GENERATOR%"
+[00:00:30] -- The C compiler identification is MSVC 19.0.24241.7
+[00:00:31] -- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/cl.exe
+[00:00:37] -- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/cl.exe -- works
+[00:00:37] -- Detecting C compiler ABI info
+[00:00:42] -- Detecting C compiler ABI info - done
+[00:00:42] -- Detecting C compile features
+[00:00:42] -- Detecting C compile features - done
+[00:00:42] -- Could NOT find PkgConfig (missing: PKG_CONFIG_EXECUTABLE) 
+[00:00:42] -- Looking for pthread.h
+[00:00:45] -- Looking for pthread.h - not found
+[00:00:45] -- Found Threads: TRUE  
+[00:00:45] -- Performing Test HAVE_STRUCT_STAT_ST_MTIM
+[00:00:47] -- Performing Test HAVE_STRUCT_STAT_ST_MTIM - Failed
+[00:00:47] -- Performing Test HAVE_STRUCT_STAT_ST_MTIMESPEC
+[00:00:50] -- Performing Test HAVE_STRUCT_STAT_ST_MTIMESPEC - Failed
+[00:00:50] -- Performing Test HAVE_STRUCT_STAT_MTIME_NSEC
+[00:00:52] -- Performing Test HAVE_STRUCT_STAT_MTIME_NSEC - Failed
+[00:00:52] -- Looking for regcomp_l
+[00:00:55] -- Looking for regcomp_l - not found
+[00:00:55] -- Looking for regcomp
+[00:00:57] -- Looking for regcomp - not found
+[00:00:57] -- Looking for futimens
+[00:00:59] -- Looking for futimens - not found
+[00:01:02] -- Checking prototype qsort_r for HAVE_QSORT_R_BSD - False
+[00:01:04] -- Checking prototype qsort_r for HAVE_QSORT_R_GNU - False
+[00:01:04] -- Looking for qsort_s
+[00:01:09] -- Looking for qsort_s - found
+[00:01:09] -- Looking for clock_gettime in rt
+[00:01:12] -- Looking for clock_gettime in rt - not found
+[00:01:12] -- Found OpenSSL: optimized;C:/OpenSSL-Win32/lib/VC/libeay32MD.lib;debug;C:/OpenSSL-Win32/lib/VC/libeay32MDd.lib (found version "1.0.2t")  
+[00:01:13] -- Could NOT find HTTP_Parser (missing: HTTP_PARSER_INCLUDE_DIR HTTP_PARSER_LIBRARY) 
+[00:01:13] -- http-parser version 2 was not found or disabled; using bundled 3rd-party sources.
+[00:01:13] -- Performing Test IS_WIMPLICIT_FALLTHROUGH_1_SUPPORTED
+[00:01:15] -- Performing Test IS_WIMPLICIT_FALLTHROUGH_1_SUPPORTED - Failed
+[00:01:16] -- Could NOT find ZLIB (missing: ZLIB_LIBRARY ZLIB_INCLUDE_DIR) 
+[00:01:16] -- zlib was not found; using bundled 3rd-party sources.
+[00:01:16] -- Performing Test IS_WNO_IMPLICIT_FALLTHROUGH_SUPPORTED
+[00:01:18] -- Performing Test IS_WNO_IMPLICIT_FALLTHROUGH_SUPPORTED - Failed
+[00:01:18] -- LIBSSH2 not found. Set CMAKE_PREFIX_PATH if it is installed outside of the default search path.
+[00:01:18] -- Enabled features:
+[00:01:18]  * threadsafe, threadsafe support
+[00:01:18]  * HTTPS, using WinHTTP
+[00:01:18]  * SHA, using CollisionDetection
+[00:01:18]  * http-parser, http-parser support (bundled)
+[00:01:18]  * zlib, using bundled zlib
+[00:01:18] 
+[00:01:18] -- Disabled features:
+[00:01:18]  * debugpool, debug pool allocator
+[00:01:18]  * tracing, tracing support
+[00:01:18]  * SSH, SSH transport support
+[00:01:18]  * SPNEGO, SPNEGO authentication support
+[00:01:18]  * iconv, iconv encoding conversion support
+[00:01:18] 
+[00:01:18] -- Configuring done
+[00:01:18] -- Generating done
+[00:01:18] -- Build files have been written to: C:/projects/pygit2/libgit2
+[00:01:18] cmake --build . --target install
+[00:01:19] Microsoft (R) Build Engine version 14.0.25420.1
+[00:01:19] Copyright (C) Microsoft Corporation. All rights reserved.
+[00:01:19] 
+[00:01:20]   Checking Build System
+[00:01:21]   Building Custom Rule C:/projects/pygit2/libgit2/src/CMakeLists.txt
+[00:01:21]   precompiled.c
+[00:01:22]   alloc.c
+[00:01:22]   annotated_commit.c
+[00:01:22]   apply.c
+[00:01:22]   attr.c
+[00:01:22]   attr_file.c
+[00:01:23]   attrcache.c
+[00:01:23]   blame.c
+[00:01:23]   blame_git.c
+[00:01:23]   blob.c
+[00:01:23]   branch.c
+[00:01:23]   buf_text.c
+[00:01:24]   buffer.c
+[00:01:24]   cache.c
+[00:01:24]   checkout.c
+[00:01:24]   cherrypick.c
+[00:01:24]   clone.c
+[00:01:24]   commit.c
+[00:01:25]   commit_list.c
+[00:01:25]   config.c
+[00:01:25]   config_cache.c
+[00:01:25]   config_entries.c
+[00:01:25]   config_file.c
+[00:01:26]   config_mem.c
+[00:01:26]   config_parse.c
+[00:01:26]   crlf.c
+[00:01:26]   date.c
+[00:01:26]   delta.c
+[00:01:27]   describe.c
+[00:01:27]   diff.c
+[00:01:27]   diff_driver.c
+[00:01:27]   diff_file.c
+[00:01:27]   diff_generate.c
+[00:01:28]   diff_parse.c
+[00:01:28]   diff_print.c
+[00:01:28]   diff_stats.c
+[00:01:28]   diff_tform.c
+[00:01:29]   diff_xdiff.c
+[00:01:29]   errors.c
+[00:01:29]   fetch.c
+[00:01:29]   fetchhead.c
+[00:01:29]   filebuf.c
+[00:01:30]   fileops.c
+[00:01:30]   filter.c
+[00:01:30]   fnmatch.c
+[00:01:30]   global.c
+[00:01:31]   graph.c
+[00:01:31]   hash.c
+[00:01:31]   hashsig.c
+[00:01:31]   ident.c
+[00:01:31]   idxmap.c
+[00:01:31]   ignore.c
+[00:01:32]   index.c
+[00:01:32]   indexer.c
+[00:01:32]   iterator.c
+[00:01:32]   mailmap.c
+[00:01:33]   merge.c
+[00:01:33]   merge_driver.c
+[00:01:33]   merge_file.c
+[00:01:33]   message.c
+[00:01:33]   mwindow.c
+[00:01:33]   netops.c
+[00:01:34]   notes.c
+[00:01:34]   object.c
+[00:01:34]   object_api.c
+[00:01:34]   odb.c
+[00:01:35]   odb_loose.c
+[00:01:35]   odb_mempack.c
+[00:01:35]   odb_pack.c
+[00:01:35]   offmap.c
+[00:01:35]   oid.c
+[00:01:36]   oidarray.c
+[00:01:36]   oidmap.c
+[00:01:36]   pack-objects.c
+[00:01:36]   pack.c
+[00:01:36]   parse.c
+[00:01:36]   patch.c
+[00:01:36]   patch_generate.c
+[00:01:37]   patch_parse.c
+[00:01:37]   path.c
+[00:01:37]   pathspec.c
+[00:01:37]   pool.c
+[00:01:37]   posix.c
+[00:01:38]   pqueue.c
+[00:01:38]   proxy.c
+[00:01:38]   push.c
+[00:01:38]   reader.c
+[00:01:38]   rebase.c
+[00:01:38]   refdb.c
+[00:01:38]   refdb_fs.c
+[00:01:39]   reflog.c
+[00:01:39]   refs.c
+[00:01:39]   refspec.c
+[00:01:39]   remote.c
+[00:01:39]   repository.c
+[00:01:40]   reset.c
+[00:01:40]   revert.c
+[00:01:40]   revparse.c
+[00:01:40]   revwalk.c
+[00:01:40]   settings.c
+[00:01:41]   sha1_lookup.c
+[00:01:41]   signature.c
+[00:01:41]   sortedcache.c
+[00:01:41]   stash.c
+[00:01:41]   status.c
+[00:01:41]   stdalloc.c
+[00:01:41]   mbedtls.c
+[00:01:42]   openssl.c
+[00:01:42]   registry.c
+[00:01:42]   socket.c
+[00:01:42]   stransport.c
+[00:01:42]   tls.c
+[00:01:42]   strmap.c
+[00:01:42]   submodule.c
+[00:01:43]   sysdir.c
+[00:01:43]   tag.c
+[00:01:43]   thread-utils.c
+[00:01:43]   trace.c
+[00:01:44]   trailer.c
+[00:01:44]   transaction.c
+[00:01:44]   transport.c
+[00:01:44]   auth.c
+[00:01:44]   auth_negotiate.c
+[00:01:44]   cred.c
+[00:01:45]   cred_helpers.c
+[00:01:45]   git.c
+[00:01:45]   http.c
+[00:01:45]   local.c
+[00:01:45]   smart.c
+[00:01:45]   smart_pkt.c
+[00:01:46]   smart_protocol.c
+[00:01:46]   ssh.c
+[00:01:46]   winhttp.c
+[00:01:46]   tree-cache.c
+[00:01:46]   tree.c
+[00:01:46]   tsort.c
+[00:01:47]   util.c
+[00:01:47]   varint.c
+[00:01:47]   vector.c
+[00:01:47]   worktree.c
+[00:01:47]   xdiffi.c
+[00:01:47]   xemit.c
+[00:01:48]   xhistogram.c
+[00:01:48]   xmerge.c
+[00:01:48]   xpatience.c
+[00:01:48]   xprepare.c
+[00:01:48]   xutils.c
+[00:01:48]   zstream.c
+[00:01:49]   dir.c
+[00:01:49]   error.c
+[00:01:49]   findfile.c
+[00:01:49]   map.c
+[00:01:49]   path_w32.c
+[00:01:49]   posix_w32.c
+[00:01:49]   thread.c
+[00:01:50]   utf-conv.c
+[00:01:50]   w32_buffer.c
+[00:01:50]   w32_crtdbg_stacktrace.c
+[00:01:50]   w32_stack.c
+[00:01:50]   w32_util.c
+[00:01:50]   sha1.c
+[00:01:50]   ubc_check.c
+[00:01:52]   git2internal.vcxproj -> C:\projects\pygit2\libgit2\src\git2internal.dir\Debug\git2internal.lib
+[00:01:55]   Building Custom Rule C:/projects/pygit2/libgit2/deps/http-parser/CMakeLists.txt
+[00:01:55]   http_parser.c
+[00:01:55]   http-parser.vcxproj -> C:\projects\pygit2\libgit2\deps\http-parser\http-parser.dir\Debug\http-parser.lib
+[00:01:59]   Building Custom Rule C:/projects/pygit2/libgit2/deps/regex/CMakeLists.txt
+[00:01:59]   regex.c
+[00:01:59]   regex.vcxproj -> C:\projects\pygit2\libgit2\deps\regex\regex.dir\Debug\regex.lib
+[00:02:02]   Building Custom Rule C:/projects/pygit2/libgit2/deps/zlib/CMakeLists.txt
+[00:02:02]   adler32.c
+[00:02:02]   crc32.c
+[00:02:03]   deflate.c
+[00:02:03]   infback.c
+[00:02:03]   inffast.c
+[00:02:03]   inflate.c
+[00:02:03]   inftrees.c
+[00:02:03]   trees.c
+[00:02:03]   zutil.c
+[00:02:03]   zlib.vcxproj -> C:\projects\pygit2\libgit2\deps\zlib\zlib.dir\Debug\zlib.lib
+[00:02:06]   Building Custom Rule C:/projects/pygit2/libgit2/src/CMakeLists.txt
+[00:02:07]      Creating library C:/projects/pygit2/libgit2/Debug/git2.lib and object C:/projects/pygit2/libgit2/Debug/git2.exp
+[00:02:08]   git2.vcxproj -> C:\projects\pygit2\libgit2\Debug\git2.dll
+[00:02:08]   git2.vcxproj -> C:/projects/pygit2/libgit2/Debug/git2.pdb (Full PDB)
+[00:02:11]   Building Custom Rule C:/projects/pygit2/libgit2/CMakeLists.txt
+[00:02:11]   -- Install configuration: "Debug"
+[00:02:11]   -- Installing: C:/projects/pygit2/venv/lib/git2.lib
+[00:02:11]   -- Installing: C:/projects/pygit2/venv/bin/git2.dll
+[00:02:11]   -- Installing: C:/projects/pygit2/venv/lib/pkgconfig/libgit2.pc
+[00:02:11]   -- Installing: C:/projects/pygit2/venv/include/git2
+[00:02:11]   -- Installing: C:/projects/pygit2/venv/include/git2/annotated_commit.h
+[00:02:11]   -- Installing: C:/projects/pygit2/venv/include/git2/apply.h
+[00:02:11]   -- Installing: C:/projects/pygit2/venv/include/git2/attr.h
+[00:02:11]   -- Installing: C:/projects/pygit2/venv/include/git2/blame.h
+[00:02:11]   -- Installing: C:/projects/pygit2/venv/include/git2/blob.h
+[00:02:11]   -- Installing: C:/projects/pygit2/venv/include/git2/branch.h
+[00:02:11]   -- Installing: C:/projects/pygit2/venv/include/git2/buffer.h
+[00:02:11]   -- Installing: C:/projects/pygit2/venv/include/git2/checkout.h
+[00:02:11]   -- Installing: C:/projects/pygit2/venv/include/git2/cherrypick.h
+[00:02:11]   -- Installing: C:/projects/pygit2/venv/include/git2/clone.h
+[00:02:11]   -- Installing: C:/projects/pygit2/venv/include/git2/commit.h
+[00:02:11]   -- Installing: C:/projects/pygit2/venv/include/git2/common.h
+[00:02:11]   -- Installing: C:/projects/pygit2/venv/include/git2/config.h
+[00:02:11]   -- Installing: C:/projects/pygit2/venv/include/git2/cred_helpers.h
+[00:02:11]   -- Installing: C:/projects/pygit2/venv/include/git2/deprecated.h
+[00:02:11]   -- Installing: C:/projects/pygit2/venv/include/git2/describe.h
+[00:02:11]   -- Installing: C:/projects/pygit2/venv/include/git2/diff.h
+[00:02:11]   -- Installing: C:/projects/pygit2/venv/include/git2/errors.h
+[00:02:11]   -- Installing: C:/projects/pygit2/venv/include/git2/filter.h
+[00:02:11]   -- Installing: C:/projects/pygit2/venv/include/git2/global.h
+[00:02:11]   -- Installing: C:/projects/pygit2/venv/include/git2/graph.h
+[00:02:11]   -- Installing: C:/projects/pygit2/venv/include/git2/ignore.h
+[00:02:11]   -- Installing: C:/projects/pygit2/venv/include/git2/index.h
+[00:02:11]   -- Installing: C:/projects/pygit2/venv/include/git2/indexer.h
+[00:02:11]   -- Installing: C:/projects/pygit2/venv/include/git2/inttypes.h
+[00:02:11]   -- Installing: C:/projects/pygit2/venv/include/git2/mailmap.h
+[00:02:11]   -- Installing: C:/projects/pygit2/venv/include/git2/merge.h
+[00:02:11]   -- Installing: C:/projects/pygit2/venv/include/git2/message.h
+[00:02:11]   -- Installing: C:/projects/pygit2/venv/include/git2/net.h
+[00:02:11]   -- Installing: C:/projects/pygit2/venv/include/git2/notes.h
+[00:02:11]   -- Installing: C:/projects/pygit2/venv/include/git2/object.h
+[00:02:11]   -- Installing: C:/projects/pygit2/venv/include/git2/odb.h
+[00:02:11]   -- Installing: C:/projects/pygit2/venv/include/git2/odb_backend.h
+[00:02:11]   -- Installing: C:/projects/pygit2/venv/include/git2/oid.h
+[00:02:11]   -- Installing: C:/projects/pygit2/venv/include/git2/oidarray.h
+[00:02:11]   -- Installing: C:/projects/pygit2/venv/include/git2/pack.h
+[00:02:11]   -- Installing: C:/projects/pygit2/venv/include/git2/patch.h
+[00:02:11]   -- Installing: C:/projects/pygit2/venv/include/git2/pathspec.h
+[00:02:11]   -- Installing: C:/projects/pygit2/venv/include/git2/proxy.h
+[00:02:11]   -- Installing: C:/projects/pygit2/venv/include/git2/rebase.h
+[00:02:11]   -- Installing: C:/projects/pygit2/venv/include/git2/refdb.h
+[00:02:11]   -- Installing: C:/projects/pygit2/venv/include/git2/reflog.h
+[00:02:11]   -- Installing: C:/projects/pygit2/venv/include/git2/refs.h
+[00:02:11]   -- Installing: C:/projects/pygit2/venv/include/git2/refspec.h
+[00:02:11]   -- Installing: C:/projects/pygit2/venv/include/git2/remote.h
+[00:02:11]   -- Installing: C:/projects/pygit2/venv/include/git2/repository.h
+[00:02:11]   -- Installing: C:/projects/pygit2/venv/include/git2/reset.h
+[00:02:11]   -- Installing: C:/projects/pygit2/venv/include/git2/revert.h
+[00:02:11]   -- Installing: C:/projects/pygit2/venv/include/git2/revparse.h
+[00:02:11]   -- Installing: C:/projects/pygit2/venv/include/git2/revwalk.h
+[00:02:11]   -- Installing: C:/projects/pygit2/venv/include/git2/signature.h
+[00:02:11]   -- Installing: C:/projects/pygit2/venv/include/git2/stash.h
+[00:02:11]   -- Installing: C:/projects/pygit2/venv/include/git2/status.h
+[00:02:11]   -- Installing: C:/projects/pygit2/venv/include/git2/stdint.h
+[00:02:11]   -- Installing: C:/projects/pygit2/venv/include/git2/strarray.h
+[00:02:11]   -- Installing: C:/projects/pygit2/venv/include/git2/submodule.h
+[00:02:11]   -- Installing: C:/projects/pygit2/venv/include/git2/sys
+[00:02:11]   -- Installing: C:/projects/pygit2/venv/include/git2/sys/alloc.h
+[00:02:11]   -- Installing: C:/projects/pygit2/venv/include/git2/sys/commit.h
+[00:02:11]   -- Installing: C:/projects/pygit2/venv/include/git2/sys/config.h
+[00:02:11]   -- Installing: C:/projects/pygit2/venv/include/git2/sys/diff.h
+[00:02:11]   -- Installing: C:/projects/pygit2/venv/include/git2/sys/filter.h
+[00:02:11]   -- Installing: C:/projects/pygit2/venv/include/git2/sys/hashsig.h
+[00:02:11]   -- Installing: C:/projects/pygit2/venv/include/git2/sys/index.h
+[00:02:11]   -- Installing: C:/projects/pygit2/venv/include/git2/sys/mempack.h
+[00:02:11]   -- Installing: C:/projects/pygit2/venv/include/git2/sys/merge.h
+[00:02:11]   -- Installing: C:/projects/pygit2/venv/include/git2/sys/odb_backend.h
+[00:02:11]   -- Installing: C:/projects/pygit2/venv/include/git2/sys/openssl.h
+[00:02:11]   -- Installing: C:/projects/pygit2/venv/include/git2/sys/path.h
+[00:02:11]   -- Installing: C:/projects/pygit2/venv/include/git2/sys/refdb_backend.h
+[00:02:11]   -- Installing: C:/projects/pygit2/venv/include/git2/sys/reflog.h
+[00:02:11]   -- Installing: C:/projects/pygit2/venv/include/git2/sys/refs.h
+[00:02:11]   -- Installing: C:/projects/pygit2/venv/include/git2/sys/repository.h
+[00:02:11]   -- Installing: C:/projects/pygit2/venv/include/git2/sys/stream.h
+[00:02:11]   -- Installing: C:/projects/pygit2/venv/include/git2/sys/time.h
+[00:02:11]   -- Installing: C:/projects/pygit2/venv/include/git2/sys/transport.h
+[00:02:11]   -- Installing: C:/projects/pygit2/venv/include/git2/tag.h
+[00:02:11]   -- Installing: C:/projects/pygit2/venv/include/git2/trace.h
+[00:02:11]   -- Installing: C:/projects/pygit2/venv/include/git2/transaction.h
+[00:02:11]   -- Installing: C:/projects/pygit2/venv/include/git2/transport.h
+[00:02:11]   -- Installing: C:/projects/pygit2/venv/include/git2/tree.h
+[00:02:11]   -- Installing: C:/projects/pygit2/venv/include/git2/types.h
+[00:02:11]   -- Installing: C:/projects/pygit2/venv/include/git2/version.h
+[00:02:11]   -- Installing: C:/projects/pygit2/venv/include/git2/worktree.h
+[00:02:11]   -- Installing: C:/projects/pygit2/venv/include/git2.h
+[00:02:11] cd ..
+[00:02:11] "%PYTHON%" setup.py bdist_wheel
+[00:02:14] _configtest.c
+[00:02:15] _cffi_backend.c
+[00:02:16] ffi.c
+[00:02:16] prep_cif.c
+[00:02:16] types.c
+[00:02:16] win32.c
+[00:02:16]    Creating library build\temp.win32-3.5\Release\c\_cffi_backend.cp35-win32.lib and object build\temp.win32-3.5\Release\c\_cffi_backend.cp35-win32.exp
+[00:02:16] Generating code
+[00:02:17] Finished generating code
+[00:02:17] 
+[00:02:17] Installed c:\projects\pygit2\.eggs\cffi-1.13.2-py3.5-win32.egg
+[00:02:17] Searching for pycparser
+[00:02:17] Reading https://pypi.python.org/simple/pycparser/
+[00:02:17] Downloading https://files.pythonhosted.org/packages/68/9e/49196946aee219aead1290e00d1e7fdeab8567783e83e1b9ab5585e6206a/pycparser-2.19.tar.gz#sha256=a988718abfad80b6b157acce7bf130a30876d27603738ac39f140993246b25b3
+[00:02:17] Best match: pycparser 2.19
+[00:02:17] Processing pycparser-2.19.tar.gz
+[00:02:18] Writing C:\Users\appveyor\AppData\Local\Temp\1\easy_install-kv0bxqx4\pycparser-2.19\setup.cfg
+[00:02:18] Running pycparser-2.19\setup.py -q bdist_egg --dist-dir C:\Users\appveyor\AppData\Local\Temp\1\easy_install-kv0bxqx4\pycparser-2.19\egg-dist-tmp-mpfqgc3y
+[00:02:18] warning: no previously-included files found matching 'setup.pyc'
+[00:02:18] warning: no previously-included files matching 'yacctab.*' found under directory 'tests'
+[00:02:18] warning: no previously-included files matching 'lextab.*' found under directory 'tests'
+[00:02:18] warning: no previously-included files matching 'yacctab.*' found under directory 'examples'
+[00:02:18] warning: no previously-included files matching 'lextab.*' found under directory 'examples'
+[00:02:18] zip_safe flag not set; analyzing archive contents...
+[00:02:18] pycparser.ply.__pycache__.lex.cpython-35: module references __file__
+[00:02:18] pycparser.ply.__pycache__.lex.cpython-35: module MAY be using inspect.getsourcefile
+[00:02:18] pycparser.ply.__pycache__.yacc.cpython-35: module references __file__
+[00:02:18] pycparser.ply.__pycache__.yacc.cpython-35: module MAY be using inspect.getsourcefile
+[00:02:18] pycparser.ply.__pycache__.yacc.cpython-35: module MAY be using inspect.stack
+[00:02:18] pycparser.ply.__pycache__.ygen.cpython-35: module references __file__
+[00:02:18] creating c:\projects\pygit2\.eggs\pycparser-2.19-py3.5.egg
+[00:02:18] Extracting pycparser-2.19-py3.5.egg to c:\projects\pygit2\.eggs
+[00:02:18] 
+[00:02:18] Installed c:\projects\pygit2\.eggs\pycparser-2.19-py3.5.egg
+[00:02:19] running bdist_wheel
+[00:02:19] running build
+[00:02:19] running build_py
+[00:02:19] creating build
+[00:02:19] creating build\lib.win32-3.5
+[00:02:19] creating build\lib.win32-3.5\pygit2
+[00:02:19] copying pygit2\blame.py -> build\lib.win32-3.5\pygit2
+[00:02:19] copying pygit2\config.py -> build\lib.win32-3.5\pygit2
+[00:02:19] copying pygit2\credentials.py -> build\lib.win32-3.5\pygit2
+[00:02:19] copying pygit2\errors.py -> build\lib.win32-3.5\pygit2
+[00:02:19] copying pygit2\ffi.py -> build\lib.win32-3.5\pygit2
+[00:02:19] copying pygit2\index.py -> build\lib.win32-3.5\pygit2
+[00:02:19] copying pygit2\refspec.py -> build\lib.win32-3.5\pygit2
+[00:02:19] copying pygit2\remote.py -> build\lib.win32-3.5\pygit2
+[00:02:19] copying pygit2\repository.py -> build\lib.win32-3.5\pygit2
+[00:02:19] copying pygit2\settings.py -> build\lib.win32-3.5\pygit2
+[00:02:19] copying pygit2\submodule.py -> build\lib.win32-3.5\pygit2
+[00:02:19] copying pygit2\utils.py -> build\lib.win32-3.5\pygit2
+[00:02:19] copying pygit2\_build.py -> build\lib.win32-3.5\pygit2
+[00:02:19] copying pygit2\_run.py -> build\lib.win32-3.5\pygit2
+[00:02:19] copying pygit2\__init__.py -> build\lib.win32-3.5\pygit2
+[00:02:19] creating build\lib.win32-3.5\pygit2\decl
+[00:02:19] copying pygit2\decl\attr.h -> build\lib.win32-3.5\pygit2\decl
+[00:02:19] copying pygit2\decl\blame.h -> build\lib.win32-3.5\pygit2\decl
+[00:02:19] copying pygit2\decl\buffer.h -> build\lib.win32-3.5\pygit2\decl
+[00:02:19] copying pygit2\decl\checkout.h -> build\lib.win32-3.5\pygit2\decl
+[00:02:19] copying pygit2\decl\clone.h -> build\lib.win32-3.5\pygit2\decl
+[00:02:19] copying pygit2\decl\common.h -> build\lib.win32-3.5\pygit2\decl
+[00:02:19] copying pygit2\decl\config.h -> build\lib.win32-3.5\pygit2\decl
+[00:02:19] copying pygit2\decl\describe.h -> build\lib.win32-3.5\pygit2\decl
+[00:02:19] copying pygit2\decl\diff.h -> build\lib.win32-3.5\pygit2\decl
+[00:02:19] copying pygit2\decl\errors.h -> build\lib.win32-3.5\pygit2\decl
+[00:02:19] copying pygit2\decl\graph.h -> build\lib.win32-3.5\pygit2\decl
+[00:02:19] copying pygit2\decl\index.h -> build\lib.win32-3.5\pygit2\decl
+[00:02:19] copying pygit2\decl\merge.h -> build\lib.win32-3.5\pygit2\decl
+[00:02:19] copying pygit2\decl\net.h -> build\lib.win32-3.5\pygit2\decl
+[00:02:19] copying pygit2\decl\oid.h -> build\lib.win32-3.5\pygit2\decl
+[00:02:19] copying pygit2\decl\pack.h -> build\lib.win32-3.5\pygit2\decl
+[00:02:19] copying pygit2\decl\proxy.h -> build\lib.win32-3.5\pygit2\decl
+[00:02:19] copying pygit2\decl\refspec.h -> build\lib.win32-3.5\pygit2\decl
+[00:02:19] copying pygit2\decl\remote.h -> build\lib.win32-3.5\pygit2\decl
+[00:02:19] copying pygit2\decl\repository.h -> build\lib.win32-3.5\pygit2\decl
+[00:02:19] copying pygit2\decl\revert.h -> build\lib.win32-3.5\pygit2\decl
+[00:02:19] copying pygit2\decl\stash.h -> build\lib.win32-3.5\pygit2\decl
+[00:02:19] copying pygit2\decl\strarray.h -> build\lib.win32-3.5\pygit2\decl
+[00:02:19] copying pygit2\decl\submodule.h -> build\lib.win32-3.5\pygit2\decl
+[00:02:19] copying pygit2\decl\transport.h -> build\lib.win32-3.5\pygit2\decl
+[00:02:19] copying pygit2\decl\types.h -> build\lib.win32-3.5\pygit2\decl
+[00:02:19] running build_ext
+[00:02:19] generating cffi module 'build\\temp.win32-3.5\\Release\\pygit2._libgit2.c'
+[00:02:19] creating build\temp.win32-3.5
+[00:02:19] creating build\temp.win32-3.5\Release
+[00:02:19] building '_pygit2' extension
+[00:02:19] creating build\temp.win32-3.5\Release\src
+[00:02:19] C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\BIN\cl.exe /c /nologo /Ox /W3 /GL /DNDEBUG /MD -IC:\projects\pygit2\venv\include -IC:\Python35\include -IC:\Python35\include "-IC:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE" "-IC:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\ATLMFC\INCLUDE" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt" "-IC:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt" /Tcsrc\blob.c /Fobuild\temp.win32-3.5\Release\src\blob.obj
+[00:02:19] blob.c
+[00:02:19] src\blob.c(179): warning C4244: 'function': conversion from 'git_off_t' to 'Py_ssize_t', possible loss of data
+[00:02:19] C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\BIN\cl.exe /c /nologo /Ox /W3 /GL /DNDEBUG /MD -IC:\projects\pygit2\venv\include -IC:\Python35\include -IC:\Python35\include "-IC:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE" "-IC:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\ATLMFC\INCLUDE" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt" "-IC:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt" /Tcsrc\branch.c /Fobuild\temp.win32-3.5\Release\src\branch.obj
+[00:02:19] branch.c
+[00:02:20] C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\BIN\cl.exe /c /nologo /Ox /W3 /GL /DNDEBUG /MD -IC:\projects\pygit2\venv\include -IC:\Python35\include -IC:\Python35\include "-IC:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE" "-IC:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\ATLMFC\INCLUDE" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt" "-IC:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt" /Tcsrc\commit.c /Fobuild\temp.win32-3.5\Release\src\commit.obj
+[00:02:20] commit.c
+[00:02:20] C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\BIN\cl.exe /c /nologo /Ox /W3 /GL /DNDEBUG /MD -IC:\projects\pygit2\venv\include -IC:\Python35\include -IC:\Python35\include "-IC:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE" "-IC:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\ATLMFC\INCLUDE" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt" "-IC:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt" /Tcsrc\diff.c /Fobuild\temp.win32-3.5\Release\src\diff.obj
+[00:02:20] diff.c
+[00:02:20] C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\BIN\cl.exe /c /nologo /Ox /W3 /GL /DNDEBUG /MD -IC:\projects\pygit2\venv\include -IC:\Python35\include -IC:\Python35\include "-IC:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE" "-IC:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\ATLMFC\INCLUDE" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt" "-IC:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt" /Tcsrc\error.c /Fobuild\temp.win32-3.5\Release\src\error.obj
+[00:02:20] error.c
+[00:02:20] C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\BIN\cl.exe /c /nologo /Ox /W3 /GL /DNDEBUG /MD -IC:\projects\pygit2\venv\include -IC:\Python35\include -IC:\Python35\include "-IC:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE" "-IC:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\ATLMFC\INCLUDE" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt" "-IC:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt" /Tcsrc\mailmap.c /Fobuild\temp.win32-3.5\Release\src\mailmap.obj
+[00:02:20] mailmap.c
+[00:02:20] C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\BIN\cl.exe /c /nologo /Ox /W3 /GL /DNDEBUG /MD -IC:\projects\pygit2\venv\include -IC:\Python35\include -IC:\Python35\include "-IC:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE" "-IC:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\ATLMFC\INCLUDE" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt" "-IC:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt" /Tcsrc\note.c /Fobuild\temp.win32-3.5\Release\src\note.obj
+[00:02:20] note.c
+[00:02:20] C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\BIN\cl.exe /c /nologo /Ox /W3 /GL /DNDEBUG /MD -IC:\projects\pygit2\venv\include -IC:\Python35\include -IC:\Python35\include "-IC:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE" "-IC:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\ATLMFC\INCLUDE" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt" "-IC:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt" /Tcsrc\object.c /Fobuild\temp.win32-3.5\Release\src\object.obj
+[00:02:20] object.c
+[00:02:20] C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\BIN\cl.exe /c /nologo /Ox /W3 /GL /DNDEBUG /MD -IC:\projects\pygit2\venv\include -IC:\Python35\include -IC:\Python35\include "-IC:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE" "-IC:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\ATLMFC\INCLUDE" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt" "-IC:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt" /Tcsrc\odb.c /Fobuild\temp.win32-3.5\Release\src\odb.obj
+[00:02:20] odb.c
+[00:02:21] C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\BIN\cl.exe /c /nologo /Ox /W3 /GL /DNDEBUG /MD -IC:\projects\pygit2\venv\include -IC:\Python35\include -IC:\Python35\include "-IC:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE" "-IC:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\ATLMFC\INCLUDE" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt" "-IC:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt" /Tcsrc\odb_backend.c /Fobuild\temp.win32-3.5\Release\src\odb_backend.obj
+[00:02:21] odb_backend.c
+[00:02:21] C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\BIN\cl.exe /c /nologo /Ox /W3 /GL /DNDEBUG /MD -IC:\projects\pygit2\venv\include -IC:\Python35\include -IC:\Python35\include "-IC:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE" "-IC:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\ATLMFC\INCLUDE" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt" "-IC:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt" /Tcsrc\oid.c /Fobuild\temp.win32-3.5\Release\src\oid.obj
+[00:02:21] oid.c
+[00:02:21] C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\BIN\cl.exe /c /nologo /Ox /W3 /GL /DNDEBUG /MD -IC:\projects\pygit2\venv\include -IC:\Python35\include -IC:\Python35\include "-IC:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE" "-IC:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\ATLMFC\INCLUDE" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt" "-IC:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt" /Tcsrc\options.c /Fobuild\temp.win32-3.5\Release\src\options.obj
+[00:02:21] options.c
+[00:02:21] C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\BIN\cl.exe /c /nologo /Ox /W3 /GL /DNDEBUG /MD -IC:\projects\pygit2\venv\include -IC:\Python35\include -IC:\Python35\include "-IC:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE" "-IC:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\ATLMFC\INCLUDE" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt" "-IC:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt" /Tcsrc\patch.c /Fobuild\temp.win32-3.5\Release\src\patch.obj
+[00:02:21] patch.c
+[00:02:21] C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\BIN\cl.exe /c /nologo /Ox /W3 /GL /DNDEBUG /MD -IC:\projects\pygit2\venv\include -IC:\Python35\include -IC:\Python35\include "-IC:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE" "-IC:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\ATLMFC\INCLUDE" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt" "-IC:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt" /Tcsrc\pygit2.c /Fobuild\temp.win32-3.5\Release\src\pygit2.obj
+[00:02:21] pygit2.c
+[00:02:21] C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\BIN\cl.exe /c /nologo /Ox /W3 /GL /DNDEBUG /MD -IC:\projects\pygit2\venv\include -IC:\Python35\include -IC:\Python35\include "-IC:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE" "-IC:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\ATLMFC\INCLUDE" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt" "-IC:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt" /Tcsrc\reference.c /Fobuild\temp.win32-3.5\Release\src\reference.obj
+[00:02:21] reference.c
+[00:02:21] C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\BIN\cl.exe /c /nologo /Ox /W3 /GL /DNDEBUG /MD -IC:\projects\pygit2\venv\include -IC:\Python35\include -IC:\Python35\include "-IC:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE" "-IC:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\ATLMFC\INCLUDE" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt" "-IC:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt" /Tcsrc\repository.c /Fobuild\temp.win32-3.5\Release\src\repository.obj
+[00:02:21] repository.c
+[00:02:22] C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\BIN\cl.exe /c /nologo /Ox /W3 /GL /DNDEBUG /MD -IC:\projects\pygit2\venv\include -IC:\Python35\include -IC:\Python35\include "-IC:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE" "-IC:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\ATLMFC\INCLUDE" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt" "-IC:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt" /Tcsrc\signature.c /Fobuild\temp.win32-3.5\Release\src\signature.obj
+[00:02:22] signature.c
+[00:02:22] C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\BIN\cl.exe /c /nologo /Ox /W3 /GL /DNDEBUG /MD -IC:\projects\pygit2\venv\include -IC:\Python35\include -IC:\Python35\include "-IC:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE" "-IC:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\ATLMFC\INCLUDE" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt" "-IC:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt" /Tcsrc\tag.c /Fobuild\temp.win32-3.5\Release\src\tag.obj
+[00:02:22] tag.c
+[00:02:22] C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\BIN\cl.exe /c /nologo /Ox /W3 /GL /DNDEBUG /MD -IC:\projects\pygit2\venv\include -IC:\Python35\include -IC:\Python35\include "-IC:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE" "-IC:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\ATLMFC\INCLUDE" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt" "-IC:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt" /Tcsrc\tree.c /Fobuild\temp.win32-3.5\Release\src\tree.obj
+[00:02:22] tree.c
+[00:02:22] C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\BIN\cl.exe /c /nologo /Ox /W3 /GL /DNDEBUG /MD -IC:\projects\pygit2\venv\include -IC:\Python35\include -IC:\Python35\include "-IC:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE" "-IC:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\ATLMFC\INCLUDE" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt" "-IC:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt" /Tcsrc\treebuilder.c /Fobuild\temp.win32-3.5\Release\src\treebuilder.obj
+[00:02:22] treebuilder.c
+[00:02:22] C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\BIN\cl.exe /c /nologo /Ox /W3 /GL /DNDEBUG /MD -IC:\projects\pygit2\venv\include -IC:\Python35\include -IC:\Python35\include "-IC:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE" "-IC:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\ATLMFC\INCLUDE" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt" "-IC:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt" /Tcsrc\utils.c /Fobuild\temp.win32-3.5\Release\src\utils.obj
+[00:02:22] utils.c
+[00:02:22] C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\BIN\cl.exe /c /nologo /Ox /W3 /GL /DNDEBUG /MD -IC:\projects\pygit2\venv\include -IC:\Python35\include -IC:\Python35\include "-IC:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE" "-IC:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\ATLMFC\INCLUDE" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt" "-IC:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt" /Tcsrc\walker.c /Fobuild\temp.win32-3.5\Release\src\walker.obj
+[00:02:22] walker.c
+[00:02:22] C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\BIN\cl.exe /c /nologo /Ox /W3 /GL /DNDEBUG /MD -IC:\projects\pygit2\venv\include -IC:\Python35\include -IC:\Python35\include "-IC:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE" "-IC:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\ATLMFC\INCLUDE" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt" "-IC:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt" /Tcsrc\worktree.c /Fobuild\temp.win32-3.5\Release\src\worktree.obj
+[00:02:22] worktree.c
+[00:02:22] C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\BIN\link.exe /nologo /INCREMENTAL:NO /LTCG /DLL /MANIFEST:EMBED,ID=2 /MANIFESTUAC:NO /LIBPATH:C:\projects\pygit2\venv\lib /LIBPATH:C:\Python35\libs /LIBPATH:C:\Python35\PCbuild\win32 "/LIBPATH:C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\LIB" "/LIBPATH:C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\ATLMFC\LIB" "/LIBPATH:C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\ucrt\x86" "/LIBPATH:C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\lib\um\x86" "/LIBPATH:C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\um\x86" git2.lib /EXPORT:PyInit__pygit2 build\temp.win32-3.5\Release\src\blob.obj build\temp.win32-3.5\Release\src\branch.obj build\temp.win32-3.5\Release\src\commit.obj build\temp.win32-3.5\Release\src\diff.obj build\temp.win32-3.5\Release\src\error.obj build\temp.win32-3.5\Release\src\mailmap.obj build\temp.win32-3.5\Release\src\note.obj build\temp.win32-3.5\Release\src\object.obj build\temp.win32-3.5\Release\src\odb.obj build\temp.win32-3.5\Release\src\odb_backend.obj build\temp.win32-3.5\Release\src\oid.obj build\temp.win32-3.5\Release\src\options.obj build\temp.win32-3.5\Release\src\patch.obj build\temp.win32-3.5\Release\src\pygit2.obj build\temp.win32-3.5\Release\src\reference.obj build\temp.win32-3.5\Release\src\repository.obj build\temp.win32-3.5\Release\src\signature.obj build\temp.win32-3.5\Release\src\tag.obj build\temp.win32-3.5\Release\src\tree.obj build\temp.win32-3.5\Release\src\treebuilder.obj build\temp.win32-3.5\Release\src\utils.obj build\temp.win32-3.5\Release\src\walker.obj build\temp.win32-3.5\Release\src\worktree.obj /OUT:build\lib.win32-3.5\_pygit2.cp35-win32.pyd /IMPLIB:build\temp.win32-3.5\Release\src\_pygit2.cp35-win32.lib
+[00:02:22]    Creating library build\temp.win32-3.5\Release\src\_pygit2.cp35-win32.lib and object build\temp.win32-3.5\Release\src\_pygit2.cp35-win32.exp
+[00:02:22] Generating code
+[00:02:23] Finished generating code
+[00:02:23] building 'pygit2._libgit2' extension
+[00:02:23] creating build\temp.win32-3.5\Release\build
+[00:02:23] creating build\temp.win32-3.5\Release\build\temp.win32-3.5
+[00:02:23] creating build\temp.win32-3.5\Release\build\temp.win32-3.5\Release
+[00:02:23] C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\BIN\cl.exe /c /nologo /Ox /W3 /GL /DNDEBUG /MD -IC:\projects\pygit2\venv\include -IC:\Python35\include -IC:\Python35\include "-IC:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE" "-IC:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\ATLMFC\INCLUDE" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt" "-IC:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt" /Tcbuild\temp.win32-3.5\Release\pygit2._libgit2.c /Fobuild\temp.win32-3.5\Release\build\temp.win32-3.5\Release\pygit2._libgit2.obj
+[00:02:23] pygit2._libgit2.c
+[00:02:23] C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\BIN\link.exe /nologo /INCREMENTAL:NO /LTCG /DLL /MANIFEST:EMBED,ID=2 /MANIFESTUAC:NO /LIBPATH:C:\projects\pygit2\venv\lib /LIBPATH:C:\Python35\libs /LIBPATH:C:\Python35\PCbuild\win32 "/LIBPATH:C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\LIB" "/LIBPATH:C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\ATLMFC\LIB" "/LIBPATH:C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\ucrt\x86" "/LIBPATH:C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\lib\um\x86" "/LIBPATH:C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\um\x86" git2.lib /EXPORT:PyInit__libgit2 build\temp.win32-3.5\Release\build\temp.win32-3.5\Release\pygit2._libgit2.obj /OUT:build\lib.win32-3.5\pygit2\_libgit2.cp35-win32.pyd /IMPLIB:build\temp.win32-3.5\Release\build\temp.win32-3.5\Release\_libgit2.cp35-win32.lib
+[00:02:23]    Creating library build\temp.win32-3.5\Release\build\temp.win32-3.5\Release\_libgit2.cp35-win32.lib and object build\temp.win32-3.5\Release\build\temp.win32-3.5\Release\_libgit2.cp35-win32.exp
+[00:02:23] Generating code
+[00:02:24] Finished generating code
+[00:02:24] copying C:\projects\pygit2\venv\bin\git2.dll -> C:\projects\pygit2\build\lib.win32-3.5
+[00:02:24] installing to build\bdist.win32\wheel
+[00:02:24] running install
+[00:02:24] running install_lib
+[00:02:24] creating build\bdist.win32
+[00:02:24] creating build\bdist.win32\wheel
+[00:02:24] copying build\lib.win32-3.5\git2.dll -> build\bdist.win32\wheel\.
+[00:02:24] creating build\bdist.win32\wheel\pygit2
+[00:02:24] copying build\lib.win32-3.5\pygit2\blame.py -> build\bdist.win32\wheel\.\pygit2
+[00:02:24] copying build\lib.win32-3.5\pygit2\config.py -> build\bdist.win32\wheel\.\pygit2
+[00:02:24] copying build\lib.win32-3.5\pygit2\credentials.py -> build\bdist.win32\wheel\.\pygit2
+[00:02:24] creating build\bdist.win32\wheel\pygit2\decl
+[00:02:24] copying build\lib.win32-3.5\pygit2\decl\attr.h -> build\bdist.win32\wheel\.\pygit2\decl
+[00:02:24] copying build\lib.win32-3.5\pygit2\decl\blame.h -> build\bdist.win32\wheel\.\pygit2\decl
+[00:02:24] copying build\lib.win32-3.5\pygit2\decl\buffer.h -> build\bdist.win32\wheel\.\pygit2\decl
+[00:02:24] copying build\lib.win32-3.5\pygit2\decl\checkout.h -> build\bdist.win32\wheel\.\pygit2\decl
+[00:02:24] copying build\lib.win32-3.5\pygit2\decl\clone.h -> build\bdist.win32\wheel\.\pygit2\decl
+[00:02:24] copying build\lib.win32-3.5\pygit2\decl\common.h -> build\bdist.win32\wheel\.\pygit2\decl
+[00:02:24] copying build\lib.win32-3.5\pygit2\decl\config.h -> build\bdist.win32\wheel\.\pygit2\decl
+[00:02:24] copying build\lib.win32-3.5\pygit2\decl\describe.h -> build\bdist.win32\wheel\.\pygit2\decl
+[00:02:24] copying build\lib.win32-3.5\pygit2\decl\diff.h -> build\bdist.win32\wheel\.\pygit2\decl
+[00:02:24] copying build\lib.win32-3.5\pygit2\decl\errors.h -> build\bdist.win32\wheel\.\pygit2\decl
+[00:02:24] copying build\lib.win32-3.5\pygit2\decl\graph.h -> build\bdist.win32\wheel\.\pygit2\decl
+[00:02:24] copying build\lib.win32-3.5\pygit2\decl\index.h -> build\bdist.win32\wheel\.\pygit2\decl
+[00:02:24] copying build\lib.win32-3.5\pygit2\decl\merge.h -> build\bdist.win32\wheel\.\pygit2\decl
+[00:02:24] copying build\lib.win32-3.5\pygit2\decl\net.h -> build\bdist.win32\wheel\.\pygit2\decl
+[00:02:24] copying build\lib.win32-3.5\pygit2\decl\oid.h -> build\bdist.win32\wheel\.\pygit2\decl
+[00:02:24] copying build\lib.win32-3.5\pygit2\decl\pack.h -> build\bdist.win32\wheel\.\pygit2\decl
+[00:02:24] copying build\lib.win32-3.5\pygit2\decl\proxy.h -> build\bdist.win32\wheel\.\pygit2\decl
+[00:02:24] copying build\lib.win32-3.5\pygit2\decl\refspec.h -> build\bdist.win32\wheel\.\pygit2\decl
+[00:02:24] copying build\lib.win32-3.5\pygit2\decl\remote.h -> build\bdist.win32\wheel\.\pygit2\decl
+[00:02:24] copying build\lib.win32-3.5\pygit2\decl\repository.h -> build\bdist.win32\wheel\.\pygit2\decl
+[00:02:24] copying build\lib.win32-3.5\pygit2\decl\revert.h -> build\bdist.win32\wheel\.\pygit2\decl
+[00:02:24] copying build\lib.win32-3.5\pygit2\decl\stash.h -> build\bdist.win32\wheel\.\pygit2\decl
+[00:02:24] copying build\lib.win32-3.5\pygit2\decl\strarray.h -> build\bdist.win32\wheel\.\pygit2\decl
+[00:02:24] copying build\lib.win32-3.5\pygit2\decl\submodule.h -> build\bdist.win32\wheel\.\pygit2\decl
+[00:02:24] copying build\lib.win32-3.5\pygit2\decl\transport.h -> build\bdist.win32\wheel\.\pygit2\decl
+[00:02:24] copying build\lib.win32-3.5\pygit2\decl\types.h -> build\bdist.win32\wheel\.\pygit2\decl
+[00:02:24] copying build\lib.win32-3.5\pygit2\errors.py -> build\bdist.win32\wheel\.\pygit2
+[00:02:24] copying build\lib.win32-3.5\pygit2\ffi.py -> build\bdist.win32\wheel\.\pygit2
+[00:02:24] copying build\lib.win32-3.5\pygit2\index.py -> build\bdist.win32\wheel\.\pygit2
+[00:02:24] copying build\lib.win32-3.5\pygit2\refspec.py -> build\bdist.win32\wheel\.\pygit2
+[00:02:24] copying build\lib.win32-3.5\pygit2\remote.py -> build\bdist.win32\wheel\.\pygit2
+[00:02:24] copying build\lib.win32-3.5\pygit2\repository.py -> build\bdist.win32\wheel\.\pygit2
+[00:02:24] copying build\lib.win32-3.5\pygit2\settings.py -> build\bdist.win32\wheel\.\pygit2
+[00:02:24] copying build\lib.win32-3.5\pygit2\submodule.py -> build\bdist.win32\wheel\.\pygit2
+[00:02:24] copying build\lib.win32-3.5\pygit2\utils.py -> build\bdist.win32\wheel\.\pygit2
+[00:02:24] copying build\lib.win32-3.5\pygit2\_build.py -> build\bdist.win32\wheel\.\pygit2
+[00:02:24] copying build\lib.win32-3.5\pygit2\_libgit2.cp35-win32.pyd -> build\bdist.win32\wheel\.\pygit2
+[00:02:24] copying build\lib.win32-3.5\pygit2\_run.py -> build\bdist.win32\wheel\.\pygit2
+[00:02:24] copying build\lib.win32-3.5\pygit2\__init__.py -> build\bdist.win32\wheel\.\pygit2
+[00:02:24] copying build\lib.win32-3.5\_pygit2.cp35-win32.pyd -> build\bdist.win32\wheel\.
+[00:02:24] running install_egg_info
+[00:02:24] running egg_info
+[00:02:24] creating pygit2.egg-info
+[00:02:24] writing requirements to pygit2.egg-info\requires.txt
+[00:02:24] writing dependency_links to pygit2.egg-info\dependency_links.txt
+[00:02:24] writing pygit2.egg-info\PKG-INFO
+[00:02:24] writing top-level names to pygit2.egg-info\top_level.txt
+[00:02:24] writing manifest file 'pygit2.egg-info\SOURCES.txt'
+[00:02:24] reading manifest file 'pygit2.egg-info\SOURCES.txt'
+[00:02:24] writing manifest file 'pygit2.egg-info\SOURCES.txt'
+[00:02:24] Copying pygit2.egg-info to build\bdist.win32\wheel\.\pygit2-0.28.2-py3.5.egg-info
+[00:02:24] running install_scripts
+[00:02:24] adding license file "COPYING" (matched pattern "COPYING*")
+[00:02:24] adding license file "AUTHORS.rst" (matched pattern "AUTHORS*")
+[00:02:24] creating build\bdist.win32\wheel\pygit2-0.28.2.dist-info\WHEEL
+[00:02:24] creating 'dist\pygit2-0.28.2-cp35-cp35m-win32.whl' and adding 'build\bdist.win32\wheel' to it
+[00:02:24] adding '_pygit2.cp35-win32.pyd'
+[00:02:24] adding 'git2.dll'
+[00:02:24] adding 'pygit2/__init__.py'
+[00:02:24] adding 'pygit2/_build.py'
+[00:02:24] adding 'pygit2/_libgit2.cp35-win32.pyd'
+[00:02:24] adding 'pygit2/_run.py'
+[00:02:24] adding 'pygit2/blame.py'
+[00:02:24] adding 'pygit2/config.py'
+[00:02:24] adding 'pygit2/credentials.py'
+[00:02:24] adding 'pygit2/errors.py'
+[00:02:24] adding 'pygit2/ffi.py'
+[00:02:24] adding 'pygit2/index.py'
+[00:02:24] adding 'pygit2/refspec.py'
+[00:02:24] adding 'pygit2/remote.py'
+[00:02:24] adding 'pygit2/repository.py'
+[00:02:24] adding 'pygit2/settings.py'
+[00:02:24] adding 'pygit2/submodule.py'
+[00:02:24] adding 'pygit2/utils.py'
+[00:02:24] adding 'pygit2/decl/attr.h'
+[00:02:24] adding 'pygit2/decl/blame.h'
+[00:02:24] adding 'pygit2/decl/buffer.h'
+[00:02:24] adding 'pygit2/decl/checkout.h'
+[00:02:24] adding 'pygit2/decl/clone.h'
+[00:02:24] adding 'pygit2/decl/common.h'
+[00:02:24] adding 'pygit2/decl/config.h'
+[00:02:24] adding 'pygit2/decl/describe.h'
+[00:02:24] adding 'pygit2/decl/diff.h'
+[00:02:24] adding 'pygit2/decl/errors.h'
+[00:02:24] adding 'pygit2/decl/graph.h'
+[00:02:24] adding 'pygit2/decl/index.h'
+[00:02:24] adding 'pygit2/decl/merge.h'
+[00:02:24] adding 'pygit2/decl/net.h'
+[00:02:24] adding 'pygit2/decl/oid.h'
+[00:02:24] adding 'pygit2/decl/pack.h'
+[00:02:24] adding 'pygit2/decl/proxy.h'
+[00:02:24] adding 'pygit2/decl/refspec.h'
+[00:02:24] adding 'pygit2/decl/remote.h'
+[00:02:24] adding 'pygit2/decl/repository.h'
+[00:02:24] adding 'pygit2/decl/revert.h'
+[00:02:24] adding 'pygit2/decl/stash.h'
+[00:02:24] adding 'pygit2/decl/strarray.h'
+[00:02:24] adding 'pygit2/decl/submodule.h'
+[00:02:24] adding 'pygit2/decl/transport.h'
+[00:02:24] adding 'pygit2/decl/types.h'
+[00:02:24] adding 'pygit2-0.28.2.dist-info/AUTHORS.rst'
+[00:02:24] adding 'pygit2-0.28.2.dist-info/COPYING'
+[00:02:24] adding 'pygit2-0.28.2.dist-info/METADATA'
+[00:02:24] adding 'pygit2-0.28.2.dist-info/WHEEL'
+[00:02:24] adding 'pygit2-0.28.2.dist-info/top_level.txt'
+[00:02:24] adding 'pygit2-0.28.2.dist-info/RECORD'
+[00:02:24] removing build\bdist.win32\wheel
+[00:02:24] C:\Python35\lib\site-packages\wheel\pep425tags.py:83: RuntimeWarning: Config variable 'Py_DEBUG' is unset, Python ABI tag may be incorrect
+[00:02:24]   warn=(impl == 'cp')):
+[00:02:24] C:\Python35\lib\site-packages\wheel\pep425tags.py:88: RuntimeWarning: Config variable 'WITH_PYMALLOC' is unset, Python ABI tag may be incorrect
+[00:02:24]   sys.version_info < (3, 8))) \
+[00:02:24] cd dist
+[00:02:24] "%PYTHON%" -m pip install --find-links=. pygit2
+[00:02:25] Looking in links: .
+[00:02:25] Processing c:\projects\pygit2\dist\pygit2-0.28.2-cp35-cp35m-win32.whl
+[00:02:26] Collecting cffi
+[00:02:26]   Downloading https://files.pythonhosted.org/packages/a8/f9/2c08f8a2a934836851f77167f1a4778b56c2db8235900ba4b6249f9d82e6/cffi-1.13.2-cp35-cp35m-win32.whl (161kB)
+[00:02:26] Collecting pycparser
+[00:02:26]   Downloading https://files.pythonhosted.org/packages/68/9e/49196946aee219aead1290e00d1e7fdeab8567783e83e1b9ab5585e6206a/pycparser-2.19.tar.gz (158kB)
+[00:02:27] Building wheels for collected packages: pycparser
+[00:02:27]   Building wheel for pycparser (setup.py): started
+[00:02:28]   Building wheel for pycparser (setup.py): finished with status 'done'
+[00:02:28]   Created wheel for pycparser: filename=pycparser-2.19-py2.py3-none-any.whl size=111057 sha256=aa539900baf7b7090442c39e2ffd23f743f705cf90c1185fc2e0b5817a362f8b
+[00:02:28]   Stored in directory: C:\Users\appveyor\AppData\Local\pip\Cache\wheels\f2\9a\90\de94f8556265ddc9d9c8b271b0f63e57b26fb1d67a45564511
+[00:02:28] Successfully built pycparser
+[00:02:28] Installing collected packages: pycparser, cffi, pygit2
+[00:02:29] Successfully installed cffi-1.13.2 pycparser-2.19 pygit2-0.28.2
+[00:02:29] cd ..
+[00:02:29] mv pygit2 pygit2.bak
+[00:02:29] &$env:PYTHON -m pytest test --junitxml=testresults.xml
+[00:02:29] 
+[00:02:29] if ($LastExitCode -ne 0) { $host.SetShouldExit($LastExitCode) }
+[00:02:29] 
+[00:02:29] # upload results to AppVeyor
+[00:02:29] $wc = New-Object 'System.Net.WebClient'
+[00:02:29] $wc.UploadFile("https://ci.appveyor.com/api/testresults/junit/$($env:APPVEYOR_JOB_ID)", (Resolve-Path ".\testresults.xml"))
+[00:02:29] 
+[00:02:29] ============================= test session starts =============================
+[00:02:29] platform win32 -- Python 3.5.4, pytest-5.3.0, py-1.8.0, pluggy-0.13.1 -- C:\Python35\python.exe
+[00:02:29] cachedir: .pytest_cache
+[00:02:29] rootdir: C:\projects\pygit2, inifile: pytest.ini
+[00:02:32] collecting ... collected 380 items
+[00:02:32] 
+[00:02:32] test/test_archive.py::ArchiveTest::test_write_commit PASSED              [  0%]
+[00:02:32] test/test_archive.py::ArchiveTest::test_write_tree PASSED                [  0%]
+[00:02:32] test/test_attributes.py::RepositorySignatureTest::test_no_attr PASSED    [  0%]
+[00:02:32] test/test_blame.py::BlameTest::test_blame_for_line PASSED                [  1%]
+[00:02:32] test/test_blame.py::BlameTest::test_blame_index PASSED                   [  1%]
+[00:02:32] test/test_blame.py::BlameTest::test_blame_newest PASSED                  [  1%]
+[00:02:32] test/test_blame.py::BlameTest::test_blame_with_invalid_index PASSED      [  1%]
+[00:02:32] test/test_blame.py::BlameTest::test_blame_with_invalid_line PASSED       [  2%]
+[00:02:32] test/test_blob.py::BlobTest::test_blob_from_repo PASSED                  [  2%]
+[00:02:32] test/test_blob.py::BlobTest::test_create_blob PASSED                     [  2%]
+[00:02:32] test/test_blob.py::BlobTest::test_create_blob_fromdisk PASSED            [  2%]
+[00:02:32] test/test_blob.py::BlobTest::test_create_blob_fromiobase PASSED          [  3%]
+[00:02:32] test/test_blob.py::BlobTest::test_create_blob_fromworkdir PASSED         [  3%]
+[00:02:32] test/test_blob.py::BlobTest::test_create_blob_outside_workdir PASSED     [  3%]
+[00:02:32] test/test_blob.py::BlobTest::test_diff_blob PASSED                       [  3%]
+[00:02:33] test/test_blob.py::BlobTest::test_diff_blob_create PASSED                [  4%]
+[00:02:33] test/test_blob.py::BlobTest::test_diff_blob_to_buffer PASSED             [  4%]
+[00:02:33] test/test_blob.py::BlobTest::test_diff_blob_to_buffer_delete PASSED      [  4%]
+[00:02:33] test/test_blob.py::BlobTest::test_diff_blob_to_buffer_patch_patch PASSED [  5%]
+[00:02:33] test/test_blob.py::BlobTest::test_read_blob PASSED                       [  5%]
+[00:02:33] test/test_branch.py::BranchesObjectTestCase::test_branch_is_head_returns_false_if_branch_is_not_head PASSED [  5%]
+[00:02:33] test/test_branch.py::BranchesObjectTestCase::test_branch_is_head_returns_true_if_branch_is_head PASSED [  5%]
+[00:02:33] test/test_branch.py::BranchesObjectTestCase::test_branch_name PASSED     [  6%]
+[00:02:33] test/test_branch.py::BranchesObjectTestCase::test_branch_rename_fails_if_destination_already_exists PASSED [  6%]
+[00:02:33] test/test_branch.py::BranchesObjectTestCase::test_branch_rename_fails_with_invalid_names PASSED [  6%]
+[00:02:33] test/test_branch.py::BranchesObjectTestCase::test_branch_rename_not_fails_if_force_is_true PASSED [  6%]
+[00:02:33] test/test_branch.py::BranchesObjectTestCase::test_branch_rename_succeeds PASSED [  7%]
+[00:02:33] test/test_branch.py::BranchesObjectTestCase::test_cant_delete_master PASSED [  7%]
+[00:02:33] test/test_branch.py::BranchesObjectTestCase::test_create_branch PASSED   [  7%]
+[00:02:33] test/test_branch.py::BranchesObjectTestCase::test_delete PASSED          [  7%]
+[00:02:33] test/test_branch.py::BranchesObjectTestCase::test_listall_branches PASSED [  8%]
+[00:02:33] test/test_branch.py::BranchesObjectTestCase::test_lookup_branch_local PASSED [  8%]
+[00:02:33] test/test_branch.py::BranchesObjectTestCase::test_with_commit PASSED     [  8%]
+[00:02:33] test/test_branch.py::BranchesObjectEmptyRepoTestCase::test_branch_remote_name PASSED [  8%]
+[00:02:34] test/test_branch.py::BranchesObjectEmptyRepoTestCase::test_branch_upstream PASSED [  9%]
+[00:02:34] test/test_branch.py::BranchesObjectEmptyRepoTestCase::test_branch_upstream_name PASSED [  9%]
+[00:02:34] test/test_branch.py::BranchesObjectEmptyRepoTestCase::test_listall_branches PASSED [  9%]
+[00:02:34] test/test_branch.py::BranchesObjectEmptyRepoTestCase::test_lookup_branch_remote PASSED [ 10%]
+[00:02:34] test/test_branch.py::BranchesTestCase::test_branch_is_checked_out_returns_false_if_branch_is_not_checked_out PASSED [ 10%]
+[00:02:34] test/test_branch.py::BranchesTestCase::test_branch_is_checked_out_returns_true_if_branch_is_checked_out PASSED [ 10%]
+[00:02:34] test/test_branch.py::BranchesTestCase::test_branch_is_head_returns_false_if_branch_is_not_head PASSED [ 10%]
+[00:02:34] test/test_branch.py::BranchesTestCase::test_branch_is_head_returns_true_if_branch_is_head PASSED [ 11%]
+[00:02:34] test/test_branch.py::BranchesTestCase::test_branch_name PASSED           [ 11%]
+[00:02:34] test/test_branch.py::BranchesTestCase::test_branch_rename_fails_if_destination_already_exists PASSED [ 11%]
+[00:02:34] test/test_branch.py::BranchesTestCase::test_branch_rename_fails_with_invalid_names PASSED [ 11%]
+[00:02:34] test/test_branch.py::BranchesTestCase::test_branch_rename_not_fails_if_force_is_true PASSED [ 12%]
+[00:02:34] test/test_branch.py::BranchesTestCase::test_branch_rename_succeeds PASSED [ 12%]
+[00:02:34] test/test_branch.py::BranchesTestCase::test_cant_delete_master PASSED    [ 12%]
+[00:02:34] test/test_branch.py::BranchesTestCase::test_create_branch PASSED         [ 12%]
+[00:02:34] test/test_branch.py::BranchesTestCase::test_delete PASSED                [ 13%]
+[00:02:35] test/test_branch.py::BranchesTestCase::test_listall_branches PASSED      [ 13%]
+[00:02:35] test/test_branch.py::BranchesTestCase::test_lookup_branch_local PASSED   [ 13%]
+[00:02:35] test/test_branch.py::BranchesEmptyRepoTestCase::test_branch_remote_name PASSED [ 13%]
+[00:02:35] test/test_branch.py::BranchesEmptyRepoTestCase::test_branch_upstream PASSED [ 14%]
+[00:02:35] test/test_branch.py::BranchesEmptyRepoTestCase::test_branch_upstream_name PASSED [ 14%]
+[00:02:35] test/test_branch.py::BranchesEmptyRepoTestCase::test_listall_branches PASSED [ 14%]
+[00:02:35] test/test_branch.py::BranchesEmptyRepoTestCase::test_lookup_branch_remote PASSED [ 15%]
+[00:02:35] test/test_cherrypick.py::CherrypickTestBasic::test_cherrypick_already_something_in_index PASSED [ 15%]
+[00:02:35] test/test_cherrypick.py::CherrypickTestBasic::test_cherrypick_invalid_hex PASSED [ 15%]
+[00:02:35] test/test_cherrypick.py::CherrypickTestBasic::test_cherrypick_none PASSED [ 15%]
+[00:02:35] test/test_cherrypick.py::CherrypickTestWithConflicts::test_cherrypick_remove_conflicts PASSED [ 16%]
+[00:02:35] test/test_commit.py::CommitTest::test_commit_refcount PASSED             [ 16%]
+[00:02:36] test/test_commit.py::CommitTest::test_modify_commit PASSED               [ 16%]
+[00:02:36] test/test_commit.py::CommitTest::test_new_commit PASSED                  [ 16%]
+[00:02:36] test/test_commit.py::CommitTest::test_new_commit_encoding PASSED         [ 17%]
+[00:02:36] test/test_commit.py::CommitTest::test_read_commit PASSED                 [ 17%]
+[00:02:36] test/test_commit.py::GpgSignatureTestCase::test_get_gpg_signature_when_signed PASSED [ 17%]
+[00:02:36] test/test_commit.py::GpgSignatureTestCase::test_get_gpg_signature_when_unsigned PASSED [ 17%]
+[00:02:36] test/test_config.py::ConfigTest::test_add PASSED                         [ 18%]
+[00:02:36] test/test_config.py::ConfigTest::test_config PASSED                      [ 18%]
+[00:02:36] test/test_config.py::ConfigTest::test_global_config PASSED               [ 18%]
+[00:02:36] test/test_config.py::ConfigTest::test_iterator PASSED                    [ 18%]
+[00:02:36] test/test_config.py::ConfigTest::test_new PASSED                         [ 19%]
+[00:02:36] test/test_config.py::ConfigTest::test_parsing PASSED                     [ 19%]
+[00:02:36] test/test_config.py::ConfigTest::test_read PASSED                        [ 19%]
+[00:02:36] test/test_config.py::ConfigTest::test_system_config PASSED               [ 20%]
+[00:02:36] test/test_config.py::ConfigTest::test_write PASSED                       [ 20%]
+[00:02:36] test/test_credentials.py::CredentialCreateTest::test_ssh_agent PASSED    [ 20%]
+[00:02:36] test/test_credentials.py::CredentialCreateTest::test_ssh_from_memory PASSED [ 20%]
+[00:02:36] test/test_credentials.py::CredentialCreateTest::test_ssh_key PASSED      [ 21%]
+[00:02:36] test/test_credentials.py::CredentialCreateTest::test_username PASSED     [ 21%]
+[00:02:37] test/test_credentials.py::CredentialCreateTest::test_userpass PASSED     [ 21%]
+[00:02:37] test/test_credentials.py::CredentialCallback::test_bad_cred_type PASSED  [ 21%]
+[00:02:37] test/test_credentials.py::CredentialCallback::test_callback PASSED       [ 22%]
+[00:02:37] test/test_credentials.py::CallableCredentialTest::test_user_pass PASSED  [ 22%]
+[00:02:37] test/test_describe.py::DescribeTest::test_describe PASSED                [ 22%]
+[00:02:37] test/test_describe.py::DescribeTest::test_describe_abbreviated_size PASSED [ 22%]
+[00:02:37] test/test_describe.py::DescribeTest::test_describe_committish PASSED     [ 23%]
+[00:02:37] test/test_describe.py::DescribeTest::test_describe_default_oid PASSED    [ 23%]
+[00:02:37] test/test_describe.py::DescribeTest::test_describe_follows_first_branch_only PASSED [ 23%]
+[00:02:37] test/test_describe.py::DescribeTest::test_describe_long_format PASSED    [ 23%]
+[00:02:38] test/test_describe.py::DescribeTest::test_describe_pattern PASSED        [ 24%]
+[00:02:38] test/test_describe.py::DescribeTest::test_describe_strategies PASSED     [ 24%]
+[00:02:38] test/test_describe.py::DescribeTest::test_describe_without_ref PASSED    [ 24%]
+[00:02:38] test/test_describe.py::DescribeDirtyWorkdirTest::test_describe PASSED    [ 25%]
+[00:02:38] test/test_describe.py::DescribeDirtyWorkdirTest::test_describe_with_dirty_suffix PASSED [ 25%]
+[00:02:38] test/test_diff.py::DiffDirtyTest::test_diff_empty_index PASSED           [ 25%]
+[00:02:38] test/test_diff.py::DiffDirtyTest::test_index_to_workdir PASSED           [ 25%]
+[00:02:38] test/test_diff.py::DiffDirtyTest::test_workdir_to_tree PASSED            [ 26%]
+[00:02:38] test/test_diff.py::DiffTest::test_deltas PASSED                          [ 26%]
+[00:02:38] test/test_diff.py::DiffTest::test_diff_empty_index PASSED                [ 26%]
+[00:02:38] test/test_diff.py::DiffTest::test_diff_empty_tree PASSED                 [ 26%]
+[00:02:38] test/test_diff.py::DiffTest::test_diff_ids PASSED                        [ 27%]
+[00:02:38] test/test_diff.py::DiffTest::test_diff_invalid PASSED                    [ 27%]
+[00:02:38] test/test_diff.py::DiffTest::test_diff_merge PASSED                      [ 27%]
+[00:02:38] test/test_diff.py::DiffTest::test_diff_parse PASSED                      [ 27%]
+[00:02:39] test/test_diff.py::DiffTest::test_diff_patch PASSED                      [ 28%]
+[00:02:39] test/test_diff.py::DiffTest::test_diff_revparse PASSED                   [ 28%]
+[00:02:39] test/test_diff.py::DiffTest::test_diff_stats PASSED                      [ 28%]
+[00:02:39] test/test_diff.py::DiffTest::test_diff_tree PASSED                       [ 28%]
+[00:02:39] test/test_diff.py::DiffTest::test_diff_tree_opts PASSED                  [ 29%]
+[00:02:39] test/test_diff.py::DiffTest::test_find_similar PASSED                    [ 29%]
+[00:02:39] test/test_diff.py::DiffTest::test_hunk_content PASSED                    [ 29%]
+[00:02:39] test/test_diff.py::DiffTest::test_parse_diff_bad PASSED                  [ 30%]
+[00:02:39] test/test_diff.py::DiffTest::test_parse_diff_null PASSED                 [ 30%]
+[00:02:39] test/test_diff.py::BinaryDiffTest::test_binary_diff PASSED               [ 30%]
+[00:02:39] test/test_index.py::IndexBareTest::test_bare PASSED                      [ 30%]
+[00:02:39] test/test_index.py::IndexTest::test_add PASSED                           [ 31%]
+[00:02:39] test/test_index.py::IndexTest::test_add_all PASSED                       [ 31%]
+[00:02:39] test/test_index.py::IndexTest::test_bare_index PASSED                    [ 31%]
+[00:02:39] test/test_index.py::IndexTest::test_change_attributes PASSED             [ 31%]
+[00:02:39] test/test_index.py::IndexTest::test_clear PASSED                         [ 32%]
+[00:02:40] test/test_index.py::IndexTest::test_index PASSED                         [ 32%]
+[00:02:40] test/test_index.py::IndexTest::test_iter PASSED                          [ 32%]
+[00:02:40] test/test_index.py::IndexTest::test_mode PASSED                          [ 32%]
+[00:02:40] test/test_index.py::IndexTest::test_read PASSED                          [ 33%]
+[00:02:40] test/test_index.py::IndexTest::test_read_tree PASSED                     [ 33%]
+[00:02:40] test/test_index.py::IndexTest::test_remove PASSED                        [ 33%]
+[00:02:40] test/test_index.py::IndexTest::test_remove_all PASSED                    [ 33%]
+[00:02:40] test/test_index.py::IndexTest::test_write PASSED                         [ 34%]
+[00:02:40] test/test_index.py::IndexTest::test_write_tree PASSED                    [ 34%]
+[00:02:40] test/test_index.py::IndexTest::test_write_tree_to PASSED                 [ 34%]
+[00:02:40] test/test_index.py::IndexEntryTest::test_create_entry PASSED             [ 35%]
+[00:02:40] test/test_index.py::StandaloneIndexTest::test_create_empty PASSED        [ 35%]
+[00:02:40] test/test_index.py::StandaloneIndexTest::test_create_empty_read_tree PASSED [ 35%]
+[00:02:40] test/test_index.py::StandaloneIndexTest::test_create_empty_read_tree_as_string PASSED [ 35%]
+[00:02:40] test/test_mailmap.py::ParsingTest::test_empty PASSED                     [ 36%]
+[00:02:40] test/test_mailmap.py::ParsingTest::test_new PASSED                       [ 36%]
+[00:02:40] test/test_mailmap.py::ParsingTest::test_parsed PASSED                    [ 36%]
+[00:02:41] test/test_merge.py::MergeTestBasic::test_merge_already_something_in_index PASSED [ 36%]
+[00:02:41] test/test_merge.py::MergeTestBasic::test_merge_analysis_fastforward PASSED [ 37%]
+[00:02:41] test/test_merge.py::MergeTestBasic::test_merge_analysis_uptodate PASSED  [ 37%]
+[00:02:41] test/test_merge.py::MergeTestBasic::test_merge_invalid_hex PASSED        [ 37%]
+[00:02:41] test/test_merge.py::MergeTestBasic::test_merge_no_fastforward_conflicts PASSED [ 37%]
+[00:02:41] test/test_merge.py::MergeTestBasic::test_merge_no_fastforward_no_conflicts PASSED [ 38%]
+[00:02:41] test/test_merge.py::MergeTestBasic::test_merge_none PASSED               [ 38%]
+[00:02:41] test/test_merge.py::MergeTestWithConflicts::test_merge_no_fastforward_conflicts PASSED [ 38%]
+[00:02:41] test/test_merge.py::MergeTestWithConflicts::test_merge_remove_conflicts PASSED [ 38%]
+[00:02:41] test/test_merge.py::MergeCommitsTest::test_merge_commits PASSED          [ 39%]
+[00:02:41] test/test_merge.py::MergeCommitsTest::test_merge_commits_favor PASSED    [ 39%]
+[00:02:41] test/test_merge.py::MergeTreesTest::test_merge_commits_favor PASSED      [ 39%]
+[00:02:42] test/test_merge.py::MergeTreesTest::test_merge_trees PASSED              [ 40%]
+[00:02:42] test/test_note.py::NotesTest::test_create_note PASSED                    [ 40%]
+[00:02:42] test/test_note.py::NotesTest::test_iterate_non_existing_ref PASSED       [ 40%]
+[00:02:42] test/test_note.py::NotesTest::test_iterate_notes PASSED                  [ 40%]
+[00:02:42] test/test_note.py::NotesTest::test_lookup_note PASSED                    [ 41%]
+[00:02:42] test/test_note.py::NotesTest::test_remove_note PASSED                    [ 41%]
+[00:02:42] test/test_object.py::ObjectTest::test_equality PASSED                    [ 41%]
+[00:02:42] test/test_object.py::ObjectTest::test_hashing PASSED                     [ 41%]
+[00:02:42] test/test_object.py::ObjectTest::test_invalid PASSED                     [ 42%]
+[00:02:42] test/test_object.py::ObjectTest::test_invalid_type PASSED                [ 42%]
+[00:02:42] test/test_object.py::ObjectTest::test_peel_commit PASSED                 [ 42%]
+[00:02:42] test/test_object.py::ObjectTest::test_peel_commit_type PASSED            [ 42%]
+[00:02:42] test/test_object.py::ObjectTest::test_short_id PASSED                    [ 43%]
+[00:02:42] test/test_odb.py::EmptyOdbTest::test_add_disk_alternate PASSED           [ 43%]
+[00:02:42] test/test_odb.py::EmptyOdbTest::test_contains PASSED                     [ 43%]
+[00:02:42] test/test_odb.py::EmptyOdbTest::test_iterable PASSED                     [ 43%]
+[00:02:42] test/test_odb.py::OdbTest::test_contains PASSED                          [ 44%]
+[00:02:42] test/test_odb.py::OdbTest::test_iterable PASSED                          [ 44%]
+[00:02:42] test/test_odb.py::OdbTest::test_read PASSED                              [ 44%]
+[00:02:42] test/test_odb.py::OdbTest::test_write PASSED                             [ 45%]
+[00:02:43] test/test_odb.py::OdbBackendTest::test_loose PASSED                      [ 45%]
+[00:02:43] test/test_odb.py::OdbBackendTest::test_pack PASSED                       [ 45%]
+[00:02:43] test/test_oid.py::OidTest::test_both PASSED                              [ 45%]
+[00:02:43] test/test_oid.py::OidTest::test_cmp PASSED                               [ 46%]
+[00:02:43] test/test_oid.py::OidTest::test_hash PASSED                              [ 46%]
+[00:02:43] test/test_oid.py::OidTest::test_hex PASSED                               [ 46%]
+[00:02:43] test/test_oid.py::OidTest::test_hex_bytes PASSED                         [ 46%]
+[00:02:43] test/test_oid.py::OidTest::test_long PASSED                              [ 47%]
+[00:02:43] test/test_oid.py::OidTest::test_none PASSED                              [ 47%]
+[00:02:43] test/test_oid.py::OidTest::test_raw PASSED                               [ 47%]
+[00:02:43] test/test_options.py::OptionsTest::test_cache_max_size_proxy PASSED      [ 47%]
+[00:02:43] test/test_options.py::OptionsTest::test_cache_object_limit PASSED        [ 48%]
+[00:02:43] test/test_options.py::OptionsTest::test_cache_object_limit_proxy PASSED  [ 48%]
+[00:02:43] test/test_options.py::OptionsTest::test_cached_memory PASSED             [ 48%]
+[00:02:43] test/test_options.py::OptionsTest::test_cached_memory_proxy PASSED       [ 48%]
+[00:02:43] test/test_options.py::OptionsTest::test_enable_cache PASSED              [ 49%]
+[00:02:43] test/test_options.py::OptionsTest::test_enable_cache_proxy PASSED        [ 49%]
+[00:02:43] test/test_options.py::OptionsTest::test_mwindow_mapped_limit_200 PASSED  [ 49%]
+[00:02:43] test/test_options.py::OptionsTest::test_mwindow_mapped_limit_300 PASSED  [ 50%]
+[00:02:43] test/test_options.py::OptionsTest::test_mwindow_size PASSED              [ 50%]
+[00:02:43] test/test_options.py::OptionsTest::test_mwindow_size_proxy PASSED        [ 50%]
+[00:02:43] test/test_options.py::OptionsTest::test_search_path PASSED               [ 50%]
+[00:02:43] test/test_options.py::OptionsTest::test_search_path_proxy PASSED         [ 51%]
+[00:02:43] test/test_patch.py::PatchTest::test_context_lines PASSED                 [ 51%]
+[00:02:43] test/test_patch.py::PatchTest::test_no_context_lines PASSED              [ 51%]
+[00:02:43] test/test_patch.py::PatchTest::test_patch_create_blob_add PASSED         [ 51%]
+[00:02:44] test/test_patch.py::PatchTest::test_patch_create_blob_blobs PASSED       [ 52%]
+[00:02:44] test/test_patch.py::PatchTest::test_patch_create_blob_buffer PASSED      [ 52%]
+[00:02:44] test/test_patch.py::PatchTest::test_patch_create_blob_delete PASSED      [ 52%]
+[00:02:44] test/test_patch.py::PatchTest::test_patch_create_from_bad_new_type_arg PASSED [ 52%]
+[00:02:44] test/test_patch.py::PatchTest::test_patch_create_from_bad_old_type_arg PASSED [ 53%]
+[00:02:44] test/test_patch.py::PatchTest::test_patch_create_from_blob_buffer PASSED [ 53%]
+[00:02:44] test/test_patch.py::PatchTest::test_patch_create_from_blob_buffer_add PASSED [ 53%]
+[00:02:44] test/test_patch.py::PatchTest::test_patch_create_from_blob_buffer_delete PASSED [ 53%]
+[00:02:44] test/test_patch.py::PatchTest::test_patch_create_from_blobs PASSED       [ 54%]
+[00:02:44] test/test_patch.py::PatchTest::test_patch_create_from_buffers PASSED     [ 54%]
+[00:02:44] test/test_patch.py::PatchTest::test_patch_delete_blob PASSED             [ 54%]
+[00:02:44] test/test_patch.py::PatchTest::test_patch_multi_blob PASSED              [ 55%]
+[00:02:44] test/test_patch.py::PatchEncodingTest::test_patch_create_from_blobs PASSED [ 55%]
+[00:02:44] test/test_patch.py::PatchEncodingTest::test_patch_from_non_utf8 PASSED   [ 55%]
+[00:02:44] test/test_refs.py::ReferencesObjectTest::test_create_reference PASSED    [ 55%]
+[00:02:44] test/test_refs.py::ReferencesObjectTest::test_create_symbolic_reference PASSED [ 56%]
+[00:02:45] test/test_refs.py::ReferencesObjectTest::test_delete PASSED              [ 56%]
+[00:02:45] test/test_refs.py::ReferencesObjectTest::test_equality PASSED            [ 56%]
+[00:02:45] test/test_refs.py::ReferencesObjectTest::test_get_shorthand PASSED       [ 56%]
+[00:02:45] test/test_refs.py::ReferencesObjectTest::test_get_target PASSED          [ 57%]
+[00:02:45] test/test_refs.py::ReferencesObjectTest::test_head PASSED                [ 57%]
+[00:02:45] test/test_refs.py::ReferencesObjectTest::test_list_all_reference_objects PASSED [ 57%]
+[00:02:45] test/test_refs.py::ReferencesObjectTest::test_list_all_references PASSED [ 57%]
+[00:02:45] test/test_refs.py::ReferencesObjectTest::test_lookup_reference PASSED    [ 58%]
+[00:02:45] test/test_refs.py::ReferencesObjectTest::test_peel PASSED                [ 58%]
+[00:02:45] test/test_refs.py::ReferencesObjectTest::test_reference_get_sha PASSED   [ 58%]
+[00:02:45] test/test_refs.py::ReferencesObjectTest::test_reference_get_type PASSED  [ 58%]
+[00:02:45] test/test_refs.py::ReferencesObjectTest::test_reference_resolve PASSED   [ 59%]
+[00:02:45] test/test_refs.py::ReferencesObjectTest::test_reference_resolve_identity PASSED [ 59%]
+[00:02:45] test/test_refs.py::ReferencesObjectTest::test_reference_set_sha PASSED   [ 59%]
+[00:02:45] test/test_refs.py::ReferencesObjectTest::test_reference_set_sha_prefix PASSED [ 60%]
+[00:02:45] test/test_refs.py::ReferencesObjectTest::test_rename PASSED              [ 60%]
+[00:02:46] test/test_refs.py::ReferencesObjectTest::test_set_target PASSED          [ 60%]
+[00:02:46] test/test_refs.py::ReferencesObjectTest::test_set_target_with_message PASSED [ 60%]
+[00:02:46] test/test_refs.py::ReferencesTest::test_create_invalid_reference PASSED  [ 61%]
+[00:02:46] test/test_refs.py::ReferencesTest::test_create_reference PASSED          [ 61%]
+[00:02:46] test/test_refs.py::ReferencesTest::test_create_symbolic_reference PASSED [ 61%]
+[00:02:46] test/test_refs.py::ReferencesTest::test_delete PASSED                    [ 61%]
+[00:02:46] test/test_refs.py::ReferencesTest::test_get_shorthand PASSED             [ 62%]
+[00:02:46] test/test_refs.py::ReferencesTest::test_get_target PASSED                [ 62%]
+[00:02:46] test/test_refs.py::ReferencesTest::test_head PASSED                      [ 62%]
+[00:02:46] test/test_refs.py::ReferencesTest::test_list_all_reference_objects PASSED [ 62%]
+[00:02:46] test/test_refs.py::ReferencesTest::test_list_all_references PASSED       [ 63%]
+[00:02:46] test/test_refs.py::ReferencesTest::test_lookup_reference PASSED          [ 63%]
+[00:02:46] test/test_refs.py::ReferencesTest::test_lookup_reference_dwim PASSED     [ 63%]
+[00:02:46] test/test_refs.py::ReferencesTest::test_peel PASSED                      [ 63%]
+[00:02:46] test/test_refs.py::ReferencesTest::test_reference_get_sha PASSED         [ 64%]
+[00:02:46] test/test_refs.py::ReferencesTest::test_reference_get_type PASSED        [ 64%]
+[00:02:46] test/test_refs.py::ReferencesTest::test_reference_resolve PASSED         [ 64%]
+[00:02:47] test/test_refs.py::ReferencesTest::test_reference_resolve_identity PASSED [ 65%]
+[00:02:47] test/test_refs.py::ReferencesTest::test_reference_set_sha PASSED         [ 65%]
+[00:02:47] test/test_refs.py::ReferencesTest::test_reference_set_sha_prefix PASSED  [ 65%]
+[00:02:47] test/test_refs.py::ReferencesTest::test_rename PASSED                    [ 65%]
+[00:02:47] test/test_refs.py::ReferencesTest::test_resolve_refish PASSED            [ 66%]
+[00:02:47] test/test_refs.py::ReferencesTest::test_set_target PASSED                [ 66%]
+[00:02:47] test/test_refs.py::ReferencesTest::test_set_target_with_message PASSED   [ 66%]
+[00:02:47] test/test_refs.py::ReferenceIsValidNameTest::test_invalid_arguments PASSED [ 66%]
+[00:02:47] test/test_refs.py::ReferenceIsValidNameTest::test_invalid_reference_names PASSED [ 67%]
+[00:02:47] test/test_refs.py::ReferenceIsValidNameTest::test_valid_reference_names_ascii PASSED [ 67%]
+[00:02:47] test/test_refs.py::ReferenceIsValidNameTest::test_valid_reference_names_unicode PASSED [ 67%]
+[00:02:47] test/test_remote.py::RepositoryTest::test_ls_remotes PASSED              [ 67%]
+[00:02:47] test/test_remote.py::RepositoryTest::test_refspec PASSED                 [ 68%]
+[00:02:47] test/test_remote.py::RepositoryTest::test_remote_collection PASSED       [ 68%]
+[00:02:47] test/test_remote.py::RepositoryTest::test_remote_create PASSED           [ 68%]
+[00:02:47] test/test_remote.py::RepositoryTest::test_remote_create_with_refspec PASSED [ 68%]
+[00:02:48] test/test_remote.py::RepositoryTest::test_remote_delete PASSED           [ 69%]
+[00:02:48] test/test_remote.py::RepositoryTest::test_remote_list PASSED             [ 69%]
+[00:02:48] test/test_remote.py::RepositoryTest::test_remote_refcount PASSED         [ 69%]
+[00:02:48] test/test_remote.py::RepositoryTest::test_remote_rename PASSED           [ 70%]
+[00:02:48] test/test_remote.py::RepositoryTest::test_remote_set_url PASSED          [ 70%]
+[00:02:48] test/test_remote.py::EmptyRepositoryTest::test_fetch PASSED              [ 70%]
+[00:02:48] test/test_remote.py::EmptyRepositoryTest::test_transfer_progress PASSED  [ 70%]
+[00:02:48] test/test_remote.py::EmptyRepositoryTest::test_update_tips PASSED        [ 71%]
+[00:02:48] test/test_remote.py::PruneTestCase::test_fetch_no_prune PASSED           [ 71%]
+[00:02:48] test/test_remote.py::PruneTestCase::test_fetch_remote_default PASSED     [ 71%]
+[00:02:48] test/test_remote.py::PruneTestCase::test_fetch_remote_prune PASSED       [ 71%]
+[00:02:48] test/test_remote.py::PruneTestCase::test_remote_prune PASSED             [ 72%]
+[00:02:48] test/test_remote.py::Utf8BranchTest::test_fetch PASSED                   [ 72%]
+[00:02:48] test/test_remote.py::PushTestCase::test_push_fast_forward_commits_to_remote_succeeds PASSED [ 72%]
+[00:02:49] test/test_remote.py::PushTestCase::test_push_non_fast_forward_commits_to_remote_fails PASSED [ 72%]
+[00:02:49] test/test_remote.py::PushTestCase::test_push_when_up_to_date_succeeds PASSED [ 73%]
+[00:02:49] test/test_repository.py::RepositoryTest::test_conflicts_in_bare_repository PASSED [ 73%]
+[00:02:49] test/test_repository.py::RepositoryTest::test_contains PASSED            [ 73%]
+[00:02:49] test/test_repository.py::RepositoryTest::test_expand_id PASSED           [ 73%]
+[00:02:49] test/test_repository.py::RepositoryTest::test_get_path PASSED            [ 74%]
+[00:02:49] test/test_repository.py::RepositoryTest::test_get_workdir PASSED         [ 74%]
+[00:02:49] test/test_repository.py::RepositoryTest::test_hash PASSED                [ 74%]
+[00:02:49] test/test_repository.py::RepositoryTest::test_hashfile PASSED            [ 75%]
+[00:02:49] test/test_repository.py::RepositoryTest::test_head PASSED                [ 75%]
+[00:02:49] test/test_repository.py::RepositoryTest::test_is_bare PASSED             [ 75%]
+[00:02:50] test/test_repository.py::RepositoryTest::test_is_empty PASSED            [ 75%]
+[00:02:50] test/test_repository.py::RepositoryTest::test_iterable PASSED            [ 76%]
+[00:02:50] test/test_repository.py::RepositoryTest::test_lookup_blob PASSED         [ 76%]
+[00:02:50] test/test_repository.py::RepositoryTest::test_lookup_blob_prefix PASSED  [ 76%]
+[00:02:50] test/test_repository.py::RepositoryTest::test_lookup_commit PASSED       [ 76%]
+[00:02:50] test/test_repository.py::RepositoryTest::test_lookup_commit_prefix PASSED [ 77%]
+[00:02:50] test/test_repository.py::RepositoryTest::test_lookup_commit_refcount PASSED [ 77%]
+[00:02:50] test/test_repository.py::RepositoryTest::test_read PASSED                [ 77%]
+[00:02:50] test/test_repository.py::RepositoryTest::test_revparse_single PASSED     [ 77%]
+[00:02:50] test/test_repository.py::RepositoryTest::test_set_head PASSED            [ 78%]
+[00:02:50] test/test_repository.py::RepositoryTest::test_write PASSED               [ 78%]
+[00:02:50] test/test_repository.py::RepositoryTest_II::test_ahead_behind PASSED     [ 78%]
+[00:02:50] test/test_repository.py::RepositoryTest_II::test_checkout_alternative_dir PASSED [ 78%]
+[00:02:51] test/test_repository.py::RepositoryTest_II::test_checkout_branch PASSED  [ 79%]
+[00:02:51] test/test_repository.py::RepositoryTest_II::test_checkout_head PASSED    [ 79%]
+[00:02:51] test/test_repository.py::RepositoryTest_II::test_checkout_index PASSED   [ 79%]
+[00:02:51] test/test_repository.py::RepositoryTest_II::test_checkout_paths PASSED   [ 80%]
+[00:02:51] test/test_repository.py::RepositoryTest_II::test_checkout_ref PASSED     [ 80%]
+[00:02:51] test/test_repository.py::RepositoryTest_II::test_descendent_of PASSED    [ 80%]
+[00:02:51] test/test_repository.py::RepositoryTest_II::test_diff_patch PASSED       [ 80%]
+[00:02:51] test/test_repository.py::RepositoryTest_II::test_get_path PASSED         [ 81%]
+[00:02:51] test/test_repository.py::RepositoryTest_II::test_get_workdir PASSED      [ 81%]
+[00:02:51] test/test_repository.py::RepositoryTest_II::test_is_bare PASSED          [ 81%]
+[00:02:51] test/test_repository.py::RepositoryTest_II::test_is_empty PASSED         [ 81%]
+[00:02:51] test/test_repository.py::RepositoryTest_II::test_merge_base PASSED       [ 82%]
+[00:02:51] test/test_repository.py::RepositoryTest_II::test_reset_hard PASSED       [ 82%]
+[00:02:51] test/test_repository.py::RepositoryTest_II::test_reset_mixed PASSED      [ 82%]
+[00:02:51] test/test_repository.py::RepositoryTest_II::test_reset_soft PASSED       [ 82%]
+[00:02:51] test/test_repository.py::RepositoryTest_II::test_revert PASSED           [ 83%]
+[00:02:51] test/test_repository.py::RepositoryTest_II::test_set_workdir PASSED      [ 83%]
+[00:02:51] test/test_repository.py::RepositoryTest_II::test_stash PASSED            [ 83%]
+[00:02:52] test/test_repository.py::RepositorySignatureTest::test_default_signature PASSED [ 83%]
+[00:02:52] test/test_repository.py::NewRepositoryTest::test_new_repo PASSED         [ 84%]
+[00:02:52] test/test_repository.py::InitRepositoryTest::test_keyword_arg_false PASSED [ 84%]
+[00:02:52] test/test_repository.py::InitRepositoryTest::test_keyword_arg_true PASSED [ 84%]
+[00:02:52] test/test_repository.py::InitRepositoryTest::test_no_arg PASSED          [ 85%]
+[00:02:52] test/test_repository.py::InitRepositoryTest::test_pos_arg_false PASSED   [ 85%]
+[00:02:52] test/test_repository.py::InitRepositoryTest::test_pos_arg_true PASSED    [ 85%]
+[00:02:52] test/test_repository.py::DiscoverRepositoryTest::test_discover_repo PASSED [ 85%]
+[00:02:52] test/test_repository.py::DiscoverRepositoryTest::test_discover_repo_not_found PASSED [ 86%]
+[00:02:52] test/test_repository.py::EmptyRepositoryTest::test_head PASSED           [ 86%]
+[00:02:52] test/test_repository.py::EmptyRepositoryTest::test_is_base PASSED        [ 86%]
+[00:02:52] test/test_repository.py::EmptyRepositoryTest::test_is_empty PASSED       [ 86%]
+[00:02:52] test/test_repository.py::StringTypesRepositoryTest::test_bytes_string PASSED [ 87%]
+[00:02:52] test/test_repository.py::StringTypesRepositoryTest::test_unicode_string PASSED [ 87%]
+[00:02:52] test/test_repository.py::CloneRepositoryTest::test_clone_bare_repository PASSED [ 87%]
+[00:02:52] test/test_repository.py::CloneRepositoryTest::test_clone_repository PASSED [ 87%]
+[00:02:52] test/test_repository.py::CloneRepositoryTest::test_clone_repository_and_remote_callbacks PASSED [ 88%]
+[00:02:52] test/test_repository.py::CloneRepositoryTest::test_clone_with_checkout_branch PASSED [ 88%]
+[00:02:52] test/test_repository.py::CloneRepositoryTest::test_clone_with_credentials PASSED [ 88%]
+[00:02:52] test/test_repository.py::WorktreeTestCase::test_worktree PASSED          [ 88%]
+[00:02:52] test/test_repository.py::WorktreeTestCase::test_worktree_custom_ref PASSED [ 89%]
+[00:02:53] test/test_revwalk.py::RevlogTestTest::test_log PASSED                    [ 89%]
+[00:02:53] test/test_revwalk.py::WalkerTest::test_default_sorting PASSED            [ 89%]
+[00:02:53] test/test_revwalk.py::WalkerTest::test_hide PASSED                       [ 90%]
+[00:02:53] test/test_revwalk.py::WalkerTest::test_hide_prefix PASSED                [ 90%]
+[00:02:53] test/test_revwalk.py::WalkerTest::test_push PASSED                       [ 90%]
+[00:02:53] test/test_revwalk.py::WalkerTest::test_reset PASSED                      [ 90%]
+[00:02:53] test/test_revwalk.py::WalkerTest::test_reverse PASSED                    [ 91%]
+[00:02:53] test/test_revwalk.py::WalkerTest::test_simplify_first_parent PASSED      [ 91%]
+[00:02:53] test/test_revwalk.py::WalkerTest::test_sort PASSED                       [ 91%]
+[00:02:53] test/test_revwalk.py::WalkerTest::test_walk PASSED                       [ 91%]
+[00:02:53] test/test_signature.py::SignatureTest::test_ascii PASSED                 [ 92%]
+[00:02:53] test/test_signature.py::SignatureTest::test_default PASSED               [ 92%]
+[00:02:53] test/test_signature.py::SignatureTest::test_latin1 PASSED                [ 92%]
+[00:02:53] test/test_signature.py::SignatureTest::test_now PASSED                   [ 92%]
+[00:02:53] test/test_status.py::StatusTest::test_status PASSED                      [ 93%]
+[00:02:53] test/test_submodule.py::SubmoduleTest::test_head_id PASSED               [ 93%]
+[00:02:55] test/test_submodule.py::SubmoduleTest::test_init_and_update PASSED       [ 93%]
+[00:02:55] test/test_submodule.py::SubmoduleTest::test_listall_submodules PASSED    [ 93%]
+[00:02:55] test/test_submodule.py::SubmoduleTest::test_lookup_submodule PASSED      [ 94%]
+[00:02:55] test/test_submodule.py::SubmoduleTest::test_name PASSED                  [ 94%]
+[00:02:58] test/test_submodule.py::SubmoduleTest::test_oneshot_update PASSED        [ 94%]
+[00:02:58] test/test_submodule.py::SubmoduleTest::test_path PASSED                  [ 95%]
+[00:03:00] test/test_submodule.py::SubmoduleTest::test_specified_update PASSED      [ 95%]
+[00:03:02] test/test_submodule.py::SubmoduleTest::test_submodule_open PASSED        [ 95%]
+[00:03:02] test/test_submodule.py::SubmoduleTest::test_url PASSED                   [ 95%]
+[00:03:02] test/test_tag.py::TagTest::test_get_object PASSED                        [ 96%]
+[00:03:02] test/test_tag.py::TagTest::test_modify_tag PASSED                        [ 96%]
+[00:03:02] test/test_tag.py::TagTest::test_new_tag PASSED                           [ 96%]
+[00:03:02] test/test_tag.py::TagTest::test_read_tag PASSED                          [ 96%]
+[00:03:02] test/test_tree.py::TreeTest::test_deep_contains PASSED                   [ 97%]
+[00:03:03] test/test_tree.py::TreeTest::test_equality PASSED                        [ 97%]
+[00:03:03] test/test_tree.py::TreeTest::test_iterate_tree PASSED                    [ 97%]
+[00:03:03] test/test_tree.py::TreeTest::test_modify_tree PASSED                     [ 97%]
+[00:03:03] test/test_tree.py::TreeTest::test_new_tree PASSED                        [ 98%]
+[00:03:03] test/test_tree.py::TreeTest::test_read_subtree PASSED                    [ 98%]
+[00:03:03] test/test_tree.py::TreeTest::test_read_tree PASSED                       [ 98%]
+[00:03:03] test/test_tree.py::TreeTest::test_sorting PASSED                         [ 98%]
+[00:03:03] test/test_treebuilder.py::TreeBuilderTest::test_new_empty_treebuilder PASSED [ 99%]
+[00:03:03] test/test_treebuilder.py::TreeBuilderTest::test_noop_treebuilder PASSED  [ 99%]
+[00:03:03] test/test_treebuilder.py::TreeBuilderTest::test_noop_treebuilder_from_tree PASSED [ 99%]
+[00:03:03] test/test_treebuilder.py::TreeBuilderTest::test_rebuild_treebuilder PASSED [100%]
+[00:03:03] 
+[00:03:03] ============================== warnings summary ===============================
+[00:03:03] C:\Python35\lib\site-packages\_pytest\junitxml.py:436
+[00:03:03]   C:\Python35\lib\site-packages\_pytest\junitxml.py:436: PytestDeprecationWarning: The 'junit_family' default value will change to 'xunit2' in pytest 6.0.
+[00:03:03]   Add 'junit_family=legacy' to your pytest.ini file to silence this warning and make your suite compatible.
+[00:03:03]     _issue_warning_captured(deprecated.JUNIT_XML_DEFAULT_FAMILY, config.hook, 2)
+[00:03:03] 
+[00:03:03] -- Docs: https://docs.pytest.org/en/latest/warnings.html
+[00:03:03] ----------- generated xml file: C:\projects\pygit2\testresults.xml ------------
+[00:03:03] ======================= 380 passed, 1 warning in 33.92s =======================
+[00:03:05] Collecting artifacts...
+[00:03:05] Found artifact 'dist\pygit2-0.28.2-cp35-cp35m-win32.whl' matching 'dist\*.whl' path
+[00:03:05] Uploading artifacts...
+[00:03:06] 
+[00:03:07] [1/1] dist\pygit2-0.28.2-cp35-cp35m-win32.whl (966,485 bytes)...7%
+[00:03:07] [1/1] dist\pygit2-0.28.2-cp35-cp35m-win32.whl (966,485 bytes)...100%
+[00:03:07] if ($env:APPVEYOR_REPO_TAG -eq $TRUE) { pip install twine; twine upload dist/* }
+[00:03:07] Build success
